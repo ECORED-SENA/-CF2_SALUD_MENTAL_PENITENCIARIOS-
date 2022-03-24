@@ -84,139 +84,83 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Comité Internacional de la Cruz Roja - CICR (2021). El CICR y la academia por las cárceles saludables: compendio de experiencias exitosas. CICR',
+    },
+    {
+      referencia:
+        'Escuela Internacional de Mediación. (2020). La realidad del entorno penitenciario. Escuela Internacional de Mediación',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://eimediacion.edu.es/ser-mediador/noticias-de-mediacion/mediacion-penal-y-penitenciaria/realidad-entorno-penitenciario/',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Ruiz, R., D., Jara, R., M., Tuberquia, G., A. y Laverde, R., L. (2019). Factores de riesgo que influyen en la calidad de vida de las personas privadas de la libertad. Una mirada desde las dimensiones física y social. Corporación Universitaria Adventista de Colombia',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (2014). Ley 1709 de 2014. Por medio de la cual se reforman algunos artículos de la Ley 65 de 1993, de la Ley 599 de 2000, de la Ley 55 de 1985 y se dictan otras disposiciones. Diario Oficial No. 49.039',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1709_2014.html',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Lopera, M., M., y Hernández, P., J. (2020). Situación de salud de la población privada de la libertad en Colombia. Una revisión sistemática de la literatura. Gerencia y Políticas de Salud, 19, 1-26.',
+      link: 'https://doi.org/10.11144/Javeriana.rgps19.sspp',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
-      significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+      termino: 'Efectos somáticos',
+      significado: 'son los que sufre la persona expuesta en su cuerpo.',
     },
     {
-      termino: '<em>Suftware</em>',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'ERON',
+      significado: 'Establecimiento de Reclusión del Orden Nacional.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Factores de riesgo',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'algo que aumenta la posibilidad de desarrollar una enfermedad.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Hacinamiento',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'condición en la que hay más personas ubicadas dentro de un espacio que se considera tolerable desde una perspectiva de seguridad y salud.',
     },
     {
-      termino: 'Moda',
+      termino: 'Trastorno mental',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'se refiere a una amplia gama de afecciones de la salud mental, es decir, trastornos que afectan el estado de ánimo, el pensamiento y el comportamiento.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Henao, O., López, C., Moreno, G., Tabima, D., y Marín, J. (2020). El CICR y la academia por las cárceles saludables: compendio de experiencias exitosas. ',
+      tipo: 'Documento resumen',
+      link: 'https://hdl.handle.net/10901/19659 ',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Congreso de Colombia (2014). Ley 1709 de 2014. Por medio de la cual se reforman algunos artículos de la Ley 65 de 1993, de la Ley 599 de 2000, de la Ley 55 de 1985 y se dictan otras disposiciones.',
+      tipo: 'Ley',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1709_2014.html',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
+        'Uspec. (2020). Manual técnico administrativo para la implementación del modelo de atención en salud de la población privada de la libertad a cargo del Inpec.',
       tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+      link:
+        'https://www.uspec.gov.co/wp-content/uploads/2021/10/Manual-Tcnico-Administrativo-para-la-Implementacin-del-Modelo-de-Atencin-en-Salud-de-la-Poblacin-Privada-de-la-Libertad-a-Cargo-del-INPEC.pdf',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      texto:
+        'Congreso de Colombia. (1993). Ley 63 de 1993. Por la cual se expide el Código Penitenciario y Carcelario. 26 de julio de 2006. D.O. No. 40.999.',
+      tipo: 'Ley de la República de Colombia',
+      descarga: [
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_0065_1993.html#:~:text=Diario%20Oficial%20No.,el%20C%C3%B3digo%20Penitenciario%20y%20Carcelario.&text=Nadie%20puede%20ser%20sometido%20a,previamente%20definido%20en%20la%20ley',
+      ],
     },
   ],
   creditos: {
@@ -229,10 +173,43 @@ export default {
     ],
     contenidoInstruccional: [
       {
+        nombre: 'Carmen Tulia Bermúdez',
+        cargo: 'Profesional Especializado',
+        centro: 'INPEC',
+      },
+      {
+        nombre: 'Franky Alexy Ortiz Peña',
+        cargo: 'Profesional Especializado',
+        centro: 'INPEC',
+      },
+      {
+        nombre: 'Sandra Vargas',
+        cargo: 'Profesional Especializado',
+        centro: 'INPEC',
+      },
+      {
+        nombre: 'Paola Moya Peralta',
+        cargo: 'Diseñadora instruccional',
+        centro:
+          'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica.',
+      },
+      {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro:
+          'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica.',
       },
     ],
     desarrolloProducto: [
@@ -248,13 +225,13 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Blanca Flor Tinoco Torres'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jorge Enrique Haylock Calderín',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

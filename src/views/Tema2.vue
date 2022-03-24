@@ -39,7 +39,7 @@
         span , incluyendo actividades, procedimientos, intervenciones, insumos médicos, medicamentos y demás tecnologías en salud, que se requieran para la atención integral e integrada en salud mental de conformidad con lo preceptuado en la normatividad vigente, teniendo en cuenta la infraestructura disponible y el número total de las personas privadas de la libertad por Establecimiento de Reclusión del Orden Nacional (ERON).
         .row.mt-3
           .col-lg-2.col-md-6.col-sm-4
-            img(src="@/assets/curso/tema1/lineas.png")
+            img(src="@/assets/curso/tema2/lineas.svg")
           .col-lg-10.col-md-12
             p La atención integral en salud mental está enfocada en la prevención, atención integral e integrada, inclusión social, prevención del consumo de sustancias psicoactivas, eliminación de estigmas y la discriminación del enfermo mental garantizando el derecho a la salud mental.
       .col-lg-6.col-md-10
@@ -171,7 +171,7 @@
         .row
           .col-lg-2
           .col-lg-7
-            .titulo-sexto.color-acento-contenido.ms-5
+            .titulo-sexto.color-acento-contenido.ms-4
               h5 Acceso psiquiatría pacientes nuevos
         .row.justify-content-center
           .col-lg-8.col-md-10.col-sm-10
