@@ -28,9 +28,9 @@
           span Descargar
           i.fas.fa-file-download    
     .row.align-items-center.my-5
-      .col-lg-6.col-md-7.fondo2.py-2
-        p.mb-0.text-center.text-white.text-bold Atención intramural de las personas privadas de la libertad en salud mental 
-    .row.mb-5
+      .col-lg-7.col-md-7.fondo2.py-2
+        h4.mb-0.text-center.text-white.text-bold Atención intramural de las personas privadas de la libertad en salud mental 
+    .row.mb-2
       .col-lg-6.col-md-10
         span Está a cargo del prestador de servicio de salud intramural y/o de Instituto Prestador de Salud (IPS) contratada, que deben garantizar el acceso con 
         span.color-texto.text-bold calidad, oportunidad y continuidad
@@ -44,7 +44,7 @@
             p La atención integral en salud mental está enfocada en la prevención, atención integral e integrada, inclusión social, prevención del consumo de sustancias psicoactivas, eliminación de estigmas y la discriminación del enfermo mental garantizando el derecho a la salud mental.
       .col-lg-6.col-md-10
         img(src="@/assets/curso/tema2/imagen2.png")
-    span.my-4 En concordancia con la normativa expuesta, las personas jurídicamente declaradas inimputables se encuentran a cargo del Ministerio de Salud y de Protección Social (MinSalud); en caso de personas condenadas que presentan enfermedad mental que ingresan por primera vez o se encuentran al interior de los ERON, son valorados por la especialidad de psiquiatría para determinar el tratamiento farmacológico y psicoterapéutico a seguir; 
+    span.mb-3 En concordancia con la normativa expuesta, las personas jurídicamente declaradas inimputables se encuentran a cargo del Ministerio de Salud y de Protección Social (MinSalud); en caso de personas condenadas que presentan enfermedad mental que ingresan por primera vez o se encuentran al interior de los ERON, son valorados por la especialidad de psiquiatría para determinar el tratamiento farmacológico y psicoterapéutico a seguir; 
     span.color-texto.text-bold servicios que se encuentran a cargo de los prestadores de servicios de salud de acuerdo con el Manual técnico administrativo para la prestación de servicio de salud de la siguiente manera:
 
     .row.justify-content-center.fondo6.my-5.p-5.correr-izq.correr-der
@@ -53,17 +53,17 @@
           .col-1
           .col-lg-4.col-md-10
             .titulo-sexto.color-acento-contenido.ms-5
-              h5 Acciones promocionales de la salud mental
+              p Acciones promocionales de la salud mental
         .row.justify-content-center
           .col-lg-9.col-md-12
-            img(src="@/assets/curso/tema2/grafico1.png")
+            img(src="@/assets/curso/tema2/grafico1.svg")
     .row
       .col-lg-5.col-md-12
         img(src="@/assets/curso/tema2/imagen3.png")
       .col-lg-7.col-md-12
         .row.align-items-center.mb-3
-          .col-lg-6.col-md-7.fondo2.py-2
-            p.mb-0.text-center.text-white.text-bold Valoración psicológica de ingreso
+          .col-lg-6.col-md-7.fondo2.py-2.ms-3
+            h4.mb-0.text-center.text-white.text-bold Valoración psicológica de ingreso
         span Está dirigida a evaluar el estado de salud psicológico actual y determinar la presencia de una patología mental, abuso o adicción a sustancias psicoactivas que requiera manejo por especialista de acuerdo con la prestación de servicio de salud mental establecido. Para todos los casos se debe realizar Tamizaje en Salud Mental a los pacientes con tuberculosis (TB) en riesgo, o en pérdida del seguimiento (idealmente a todos los pacientes; 
         span.color-texto.text-bold además del tamizaje al 100% de la población privada de la libertad de cada ERON, 
         span en índice de:
@@ -81,9 +81,9 @@
               span 3
             | Suicidio.
 
-    .row.align-items-center.my-5
-      .col-lg-2.col-md-7.fondo2.py-2
-        p.mb-0.text-center.text-white.text-bold Consulta externa
+    .row.align-items-center.my-4
+      .col-lg-2.col-md-7.fondo2.py-2.ms-3
+        h4.mb-0.text-center.text-white.text-bold Consulta externa
     p.mb-5 La consulta externa es la atención que imparten los médicos a pacientes ambulatorios de las especialidades médicas que se ofrecen, consiste en realizar un interrogatorio y exploración física minuciosa para un diagnóstico.
 
     figure.mb-5
@@ -98,7 +98,7 @@
         .row.justify-content-center.mb-4
           .col-6
             h5.text-center CLÁUSULA PRIMERA
-            p.text-center Objeto
+            p.text-center.text-bold Objeto
             figure
               img(src='@/assets/componentes/tema2/figura1.svg')
         p.text-center Prestación integral de servicios de salud de mediana-alta complejidad a la población privada de la libertad bajo la custodia y vigilancia del Instituto Nacional Penitenciario y Carcelario – Inpec, en la especialidad de salud mental en cumplimiento del modelo de atención en salud establecido en la Resolución 5159 de 2015, modificada por la Resolución 3595 de 2016 expedidas por el Ministerio de Salud y Protección social, garantizando los servicios intramurales en los ERON y extramurales en las instalaciones debidamente habilitadas.
@@ -107,17 +107,17 @@
         .row.justify-content-center.mb-4
           .col-6
             h5.text-center.text-white CLÁUSULA SEGUNDA
-            p.text-center.text-white Alcance
+            p.text-center.text-white.text-bold Alcance
             figure
               img(src='@/assets/componentes/tema2/figura2.svg')
         p.text-white.text-center El contratista en desarrollo del objeto del presente contrato prestará integralmente los servicios de salud mental integral a la Población Privada de la Libertad (PPL) en los ERON que cuentan con unidades de salud mental, administración y entrega de medicamentos, así mismo garantizar los servicios extramurales de hospitalización y urgencias en las instalaciones debidamente habilitadas en cumplimiento del Decreto 780 de 2016. Lo anterior, de conformidad con el Anexo No.1 – Oferta de servicios del contratista, documento que para todos los efectos hace parte integral del contrato.
 
-    .row.justify-content-center.fondo6.my-5.p-5.correr-izq.correr-der
+    .row.justify-content-center.fondo5.my-5.p-5.correr-izq.correr-der
       .col-12
         p.text-center Conforme al alcance, se cuenta con los siguientes profesionales:
       .row.justify-content-center.align-items-end
         .col-lg-3.col-md-12
-          p.mb-5 Atención Nacional Clínica Nuestra Señora de la Paz y Clínica Basilia: 
+          p.mb-5.text-bold Atención Nacional Clínica Nuestra Señora de la Paz y Clínica Basilia: 
         .col-lg-4.col-md-5.col-sm-5.fondo8.me-4.bajar.bordes
           img.mt-3.reducir(src='@/assets/curso/tema2/figura1.svg')
           p.text-center.text-bold.mt-5 Médico psiquiatra
@@ -132,39 +132,39 @@
       .col-lg-2
       .col-lg-3
         .titulo-sexto.color-acento-contenido.ms-5
-          h5 Equipo interdisciplinario
+          p Equipo interdisciplinario
     .row
       .col-lg-2
       .col-lg-7.col-md-7.fondo8.py-2.ms-5
         p.mb-0.text-center.text-bold Equipo interdisciplinario
     .row.justify-content-center
-      .col-lg-1.col-md-3.col-sm-3.py-2
-        img(src='@/assets/curso/tema2/figura3.svg')
+      .col-lg-1.col-md-3.col-sm-3.py-2.fondo12
+        img.reducir80(src='@/assets/curso/tema2/figura3.svg')
         p.text-center Médico psiquiatra
       .col-lg-1.col-md-3.col-sm-3.py-2
-        img(src='@/assets/curso/tema2/figura4.svg')
+        img.reducir80(src='@/assets/curso/tema2/figura4.svg')
         p.text-center Médico general
-      .col-lg-1.col-md-3.col-sm-3.py-2
-        img(src='@/assets/curso/tema2/figura5.svg')
+      .col-lg-1.col-md-3.col-sm-3.py-2.fondo12
+        img.reducir80(src='@/assets/curso/tema2/figura5.svg')
         p.text-center Psicólogo
       .col-lg-1.col-md-3.col-sm-3.py-2
-        img(src='@/assets/curso/tema2/figura6.svg')
+        img.reducir80(src='@/assets/curso/tema2/figura6.svg')
         p.text-center Enfermera jefa
-      .col-lg-1.col-md-3.col-sm-3.py-2
-        img(src='@/assets/curso/tema2/figura7.svg')
+      .col-lg-1.col-md-3.col-sm-3.fondo12.py-2
+        img.reducir80(src='@/assets/curso/tema2/figura7.svg')
         p.text-center Auxiliar de enfermería
       .col-lg-1.col-md-3.col-sm-3.py-2
-        img(src='@/assets/curso/tema2/figura8.svg')
+        img.reducir80(src='@/assets/curso/tema2/figura8.svg')
         p.text-center Trabajo Social
-      .col-lg-1.col-md-3.col-sm-3.py-2
-        img(src='@/assets/curso/tema2/figura9.svg')
+      .col-lg-1.col-md-3.col-sm-3.py-2.fondo12
+        img.reducir80(src='@/assets/curso/tema2/figura9.svg')
         p.text-center Terapia Ocupacional
 
-    .row
+    .row.correr-der.correr-izq
       .col-12.fondo9
-        .row.align-items-center.my-5
-          .col-lg-7.col-md-7.fondo2.py-2
-            p.mb-0.text-center.text-white.text-bold Rutas de acceso a la prestación de servicio de salud mental contratado por la Fiduciaria Central
+        .row.align-items-center.my-5.ms-5
+          .col-lg-8.col-md-7.fondo2.py-2
+            h4.mb-0.text-center.text-white.text-bold Rutas de acceso a la prestación de servicio de salud mental contratado por la Fiduciaria Central
         .row.justify-content-center
           .col-7
             p.text-center Para el acceso a psiquiatría de pacientes nuevos se debe seguir el siguiente proceso: 
@@ -172,7 +172,7 @@
           .col-lg-2
           .col-lg-7
             .titulo-sexto.color-acento-contenido.ms-4
-              h5 Acceso psiquiatría pacientes nuevos
+              p Acceso psiquiatría pacientes nuevos
         .row.justify-content-center
           .col-lg-8.col-md-10.col-sm-10
             img(src='@/assets/curso/tema2/grafico2.png')
@@ -182,7 +182,7 @@
         .row
           .col-lg-7.ms-4
             .titulo-sexto.color-acento-contenido.ms-5
-              h5 Acceso control por la especialidad de psiquiatría
+              p Acceso control por la especialidad de psiquiatría
         .row
           .col-11.ms-4
             img.my-5.ms-5(src='@/assets/curso/tema2/grafico3.png')
@@ -193,7 +193,7 @@
         .row
           .col-lg-7.ms-4
             .titulo-sexto.color-acento-contenido.ms-5
-              h5 Acceso control por la especialidad de la hospitalización psiquiatría
+              p Acceso control por la especialidad de la hospitalización psiquiatría
         .row
           .col-11.ms-4
             img.my-5.ms-5(src='@/assets/curso/tema2/grafico4.png')

@@ -24,28 +24,28 @@
             span El  
             span.color-texto.text-bold tratamiento penitenciario 
             span tiene la finalidad de alcanzar la resocialización del infractor de la ley penal, mediante el examen de su personalidad y a través de la disciplina, el trabajo, el estudio, la formación espiritual, la cultura, el deporte y la recreación, bajo un espíritu humano y solidario.
-    .row
+    .row.correr-izq.correr-der
       .col-12.fondo10
         .row
           .col-lg-5.col-md-10.col-sm-12
-            img(src="@/assets/curso/tema3/sicologa.png")
+            img.ms-4(src="@/assets/curso/tema3/sicologa.png")
           .col-lg-7.col-md-10.col-sm-12
-            .row.align-items-center.mt-2
-              .col-lg-4.col-md-5.fondo2.py-2.col-sm-5
-                p.mb-0.text-center.text-white.text-bold Características
+            .row.align-items-center.mt-2.ms-3
+              .col-lg-3.col-md-5.fondo2.py-2.col-sm-5
+                h4.mb-0.text-center.text-white.text-bold Características
 
-            AcordionA.my-4(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+            AcordionA.my-4.me-4.ms-3(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
               .row(titulo="Atención social")
                 .col-md-12.mb-4.mb-md-0.ms-5
                   p Inicia en el momento en que el PPL ingresa en un establecimiento de reclusión del Sistema Nacional Penitenciario y Carcelario y termina en el momento en que la autoridad competente emita y notifique al director del establecimiento la boleta de libertad del interno(a), sindicado(a) o condenado(a). Comprende la recepción y la atención del PPL facilitando su proceso de adaptación.
 
               div(titulo="Tratamiento penitenciario")
                 p.ms-5 El proceso de tratamiento penitenciario inicia desde el momento en que el PPL es condenado(a) en única, primera y segunda instancia, o cuyo recurso de casación se encuentre pendiente, e ingresa a la fase de observación, diagnóstico y clasificación y finaliza una vez obtenga la libertad. El responsable del área jurídica del establecimiento remitirá semanalmente las copias de los fallos condenatorios de los que tenga conocimiento al CET, para iniciar el proceso de tratamiento penitenciario
-          .row
-            .col-lg-7.col-md-10.col-sm-12
+          .row.mx-4
+            .col-lg-6.col-md-10.col-sm-12
               .row.align-items-center.my-4
-                .col-lg-6.col-md-10.fondo2.py-2
-                  p.mb-0.text-center.text-white.text-bold Programas de atención social
+                .col-lg-5.col-md-10.fondo2.py-2
+                  h4.mb-0.text-center.text-white.text-bold Programas de atención social
               p.mb-4 Los programas sociales son un conjunto de instrumentos que tienen por objetivo contribuir a la mejora de las condiciones de vida de la población penitenciaria, entre ellos están:
               .titulo-sexto.color-secundario
                 h5.color-texto.text-bold Programa de atención psicología penitenciaria:
@@ -76,8 +76,8 @@
                   .col-lg-3.col-sm-3
                     figure
                       img(src='@/assets/template/tema3/crisis.svg')
-
-            .col-lg-5.col-md-10.col-sm-12
+            .col-1
+            .col-lg-5.col-md-10.col-sm-12.correr-izq
               img(src="@/assets/curso/tema3/profesional.png")
 
           .titulo-sexto.color-secundario

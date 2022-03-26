@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'El presente componente formativo tiene como objetivo, ofrecer al aprendiz conocimientos generales de la salud mental penitenciaria y programas psicosociales que se brindan a la población privada de la libertad desde los procesos de atención social y tratamiento penitenciario. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.jpg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
     fondoBannerInterno: require('@/assets/curso/fondo-banner-interno.jpg'),
   },
   menuPrincipal: {
