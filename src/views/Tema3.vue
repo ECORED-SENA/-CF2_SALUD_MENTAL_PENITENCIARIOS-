@@ -46,12 +46,12 @@
               .row.align-items-center.my-4
                 .col-lg-5.col-md-10.fondo2.py-2
                   h4.mb-0.text-center.text-white.text-bold Programas de atención social
-              p.mb-4 Los programas sociales son un conjunto de instrumentos que tienen por objetivo contribuir a la mejora de las condiciones de vida de la población penitenciaria, entre ellos están:
-              .titulo-sexto.color-secundario
+              p.mb-4.correr-izq10 Los programas sociales son un conjunto de instrumentos que tienen por objetivo contribuir a la mejora de las condiciones de vida de la población penitenciaria, entre ellos están:
+              .titulo-sexto.color-secundario.correr-izq10
                 h5.color-texto.text-bold Programa de atención psicología penitenciaria:
-              p.mb-4 Implementa acciones pertinentes a la atención e intervención psicológica de la población privada de la libertad, orientados al fortalecimiento y desarrollo de habilidades, destrezas, actitudes, y potencialidades en los internos(as), con el fin de minimizar los efectos adversos de la prisionalización, y fortalecer procesos psicológicos en busca de su integración social positiva, y en cumplimiento de los procesos de atención social y tratamiento penitenciario.
+              p.mb-4.correr-izq10 Implementa acciones pertinentes a la atención e intervención psicológica de la población privada de la libertad, orientados al fortalecimiento y desarrollo de habilidades, destrezas, actitudes, y potencialidades en los internos(as), con el fin de minimizar los efectos adversos de la prisionalización, y fortalecer procesos psicológicos en busca de su integración social positiva, y en cumplimiento de los procesos de atención social y tratamiento penitenciario.
 
-              .titulo-sexto.color-secundario
+              .titulo-sexto.color-secundario.correr-izq10
                 h5.color-texto.text-bold Componentes
               LineaTiempoD.color-primario
                 .row(numero="1" titulo="Asistencia psicológica")
@@ -80,9 +80,9 @@
             .col-lg-5.col-md-10.col-sm-12.correr-izq
               img(src="@/assets/curso/tema3/profesional.png")
 
-          .titulo-sexto.color-secundario
-            h5.color-texto.text-bold Programa de atención a menores de tres (3) años en establecimientos de reclusión:
-          span Para asegurar a los niños menores de tres años que viven con sus madres en los Establecimientos de Reclusión del Orden Nacional la protección y el ejercicio de sus derechos, a través de la atención integral, tomando las medidas necesarias para su bienestar 
+            .titulo-sexto.color-secundario.correr-izq10
+              h5.color-texto.text-bold Programa de atención a menores de tres (3) años en establecimientos de reclusión:
+          p.ms-3 Para asegurar a los niños menores de tres años que viven con sus madres en los Establecimientos de Reclusión del Orden Nacional la protección y el ejercicio de sus derechos, a través de la atención integral, tomando las medidas necesarias para su bienestar 
             span.color-texto.text-bold (Ley 65 de 1993, Art. 153, modificado por Ley 1709 de 2014, art. 88).
 
           .tarjeta--container.row.my-5.mx-2
@@ -111,23 +111,21 @@
             .titulo-sexto.color-secundario.mt-5.mb-1
               h5.color-texto.text-bold Población objeto:
             p.mb-4 personas sindicadas y condenadas privadas de la libertad por orden judicial mediante un abordaje individual, grupal y/o familiar, a través de las diferentes actividades que tengan incidencia en la familia. Este programa se ejecuta desde el proceso de Atención Social (Ley 65 de 1993) y está dirigido a sindicados y condenados para facilitar y fortalecer las relaciones con la familia, y hace parte del tratamiento penitenciario para preparar a la población interna con miras a la vida familiar en libertad a través de dos modalidades:            
-      .row.justify-content-center.mt-5
-        .col-10
-          .row.fondo4.bordes50.p-1
-            .col-1
-              img.correr-izq30(src='@/assets/curso/tema3/dialogo.svg')
-            .col-11
-              span.color-texto.text-bold.mb-0 Orientado al Interno(a): 
-              span.text-white.mb-0.text-center es el acompañamiento directo realizado al interno(a) donde se identifican las situaciones que generan temor frente al proceso que inicia la persona privada de la libertad y su interacción familiar. 
 
-      .row.justify-content-center.my-5
-        .col-10
-          .row.fondo4.bordes50.p-1
-            .col-1
-              img.correr-izq30(src='@/assets/curso/tema3/familia.svg')
+      .row.my-5.justify-content-center
+        .col-10.fondo13
+          .row.justify-content-end.align-items-center
             .col-11
-              span.color-texto.text-bold.mb-0 Orientado al Interno(a): 
-              span.text-white.mb-0.text-center Orientado a la familia del interno(a) las acciones que se realizan en el programa para beneficio directo de la familia del interno(a) se relacionan a continuación: a) Acercamiento familiar, b) Visita familiar, c) Celebración Día de la Familia y d) Celebración del Día de la Niñez.
+              br
+              p.ms-4 <span style="color: #3BA3F8">Orientado al Interno(a):</span> <span style="color: #fff">es el acompañamiento directo realizado al interno(a) donde se identifican las situaciones que generan temor frente al proceso que inicia la persona privada de la libertad y su interacción familiar.</span>
+              br
+
+      .row.my-5.justify-content-center
+        .col-10.fondo14
+          .row.justify-content-end.align-items-center
+            .col-11
+              br
+              p.text-white.ms-4 Orientado a la familia del interno(a) las acciones que se realizan en el programa para beneficio directo de la familia del interno(a) se relacionan a continuación: a) Acercamiento familiar, b) Visita familiar, c) Celebración Día de la Familia y d) Celebración del Día de la Niñez.
     .titulo-sexto.color-secundario.mt-5.mb-1
       h5.color-texto.text-bold Programa de atención a grupos de condiciones excepcionales:
     .row

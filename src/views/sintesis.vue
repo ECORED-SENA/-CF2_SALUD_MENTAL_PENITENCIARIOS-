@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span S
       h1 Síntesis
-    img(src="@/assets/curso/sintesis/sintesis.png")
+    img(src="@/assets/curso/sintesis/sintesis.svg")
 
 
 </template>

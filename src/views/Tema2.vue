@@ -175,7 +175,7 @@
               p Acceso psiquiatría pacientes nuevos
         .row.justify-content-center
           .col-lg-8.col-md-10.col-sm-10
-            img(src='@/assets/curso/tema2/grafico2.png')
+            img(src='@/assets/curso/tema2/grafico2.svg')
         .row.my-5
           .col-12
             p.text-center Para el acceso al control por la especialidad de psiquiatría:
@@ -185,7 +185,7 @@
               p Acceso control por la especialidad de psiquiatría
         .row
           .col-11.ms-4
-            img.my-5.ms-5(src='@/assets/curso/tema2/grafico3.png')
+            img.my-5.ms-5(src='@/assets/curso/tema2/grafico3.svg')
 
         .row.my-5
           .col-12
@@ -196,7 +196,7 @@
               p Acceso control por la especialidad de la hospitalización psiquiatría
         .row
           .col-11.ms-4
-            img.my-5.ms-5(src='@/assets/curso/tema2/grafico4.png')
+            img.my-5.ms-5(src='@/assets/curso/tema2/grafico4.svg')
     p.my-5 A continuación, en las tablas 1 y 2, se presentan los procesos de acceso a la Unidad de Salud Mental de Paso en establecimiento penitenciario y el de traslado de ERON a pacientes del Programa de Salud Mental.
     .row.my-4
       .col-lg-7
