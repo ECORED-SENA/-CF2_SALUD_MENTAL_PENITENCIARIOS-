@@ -10,7 +10,7 @@
       h1 Introducción
     .row.justify-content-center.fondo1.align-items-center.py-5.my-5.bordes
       .col-lg-1.col-md-12
-        img(src="@/assets/curso/tema1/lineas.png")
+        img.celular(src="@/assets/curso/tema1/lineas.png")
       .col-lg-10.col-md-12
         span Este módulo permitirá a los participantes 
         span.color-texto.text-bold generar conocimiento del concepto de entornos penitenciarios, normativa en la prestación de servicios de salud mental, programas y lineamientos del área psicosocial 

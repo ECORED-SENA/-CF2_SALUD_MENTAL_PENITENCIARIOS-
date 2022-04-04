@@ -15,7 +15,7 @@
           .col-10
             p Los entornos penitenciarios son lugares destinados al confinamiento de personas que han sido puestas en prisión preventiva por una autoridad judicial, y que han sido privadas de su libertad tras ser condenadas por un delito.
         .row.align-items-center.mt-4
-          .col-lg-3.col-md-5.fondo2.py-2.mb-4.ms-3
+          .col-xl-3.col-lg-4.col-md-3.fondo2.py-2.mb-4.ms-3.col-sm-3
             p.mb-0.text-center.text-white.text-bold Características
         .row.mb-4
           .col-12
@@ -38,18 +38,18 @@
           span.justify-content-end - (Lopera y Hernández, 2020, p. 3)
 
     .row.align-items-center.my-5.ms-1
-      .col-lg-3.col-md-6.fondo2.py-2
-        h4.mb-0.text-center.text-white.text-bold Factores de riesgo asociado
+      .col-lg-3.col-md-6.fondo2.py-2.anchoTitulo
+        h4.mb-0.text-white.text-bold Factores de riesgo asociado
     p.my-5 Como lo anotan Laverde y Tuberquia (2019), se han encontrado factores de riesgo que influyen directamente en la calidad de vida de la persona privada de la libertad, como son:
     .row.fondo4
       .col-1
       .col-lg-3.col-md-12
-        img.m-5(src="@/assets/curso/tema1/figura1.png")
+        img.mt-5.reducirFig2(src="@/assets/curso/tema1/figura1.png")
       .col-lg-8.col-md-12.px-5
-        .titulo-segundo.color-acento-contenido.m-5
+        .titulo-segundo.color-acento-contenido.mb-5
           h2.text-white.text-bold Entornos Penitenciarios
         p.m-5.text-white Como lo anota Laverde y Tuberquia (2019) se han encontrado factores de riesgo que influyen directamente en la calidad de vida de la persona privada de la libertad, en la siguiente infografía  se  presentan estos  factores de riesgo que impactan  a esta población:
-        a.boton.color-acento-botones.texto-blanco.ms-5(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.boton.color-acento-botones.texto-blanco.ms-5.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
           span Descargar
           i.fas.fa-file-download
 </template>

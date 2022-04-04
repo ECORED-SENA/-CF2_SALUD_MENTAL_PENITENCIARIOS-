@@ -10,25 +10,25 @@
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-md-10.p-0.m-0
-        img(src="@/assets/curso/tema2/imagen1.png")
-      .col-lg-9.col-md-10.fondo5.p-4.correr-izq
+        img.reducirFig(src="@/assets/curso/tema2/imagen1.png")
+      .col-lg-9.col-md-10.fondo5.p-4.correr-izqBloq
         span La existencia de personas con enfermedad mental al interior de los establecimientos de reclusión es una realidad presente en todos los países. En ocasiones por falta de la activación de un servicio de salud eficiente e integral se limita la posibilidad de identificar síntomas y activar tratamientos en salud mental oportunos, conllevando a los individuos a cometer delitos por los cuales son ingresados al sistema penitenciario. 
         span.color-texto.text-bold Al respecto, la Ley 1709 de 2014 
         span ordena los siguiente:
 
     .row.fondo4
       .col-1
-      .col-lg-3.col-md-12
-        img.m-5(src="@/assets/curso/tema1/figura1.png")
-      .col-lg-8.col-md-12.px-5.col-sm-12
-        .titulo-segundo.color-acento-contenido.mt-5.ms-5.mb-2
+      .col-lg-3.col-md-3
+        img.m-5.imagenes(src="@/assets/curso/tema1/figura1.png")
+      .col-lg-8.col-md-8.padCuadro
+        .titulo-segundo.color-acento-contenido.margenTextoCuadro.mt-5.mb-3
           h2.text-white.text-bold Enfermedad mental
-        p.ms-5.me-5.mb-3.text-white La existencia de personas con enfermedad mental al interior de los establecimientos de reclusión es una realidad presente en todos los países. En ocasiones por falta de la activación de un servicio de salud eficiente e integral se limita la posibilidad de identificar síntomas y activar tratamientos en salud mental oportunos, conllevando a los individuos a cometer delitos por los cuales son ingresados al sistema penitenciario, al respecto la Ley 1709 ordena realizar exámenes de ingreso y egreso y el lugar de la medida de aseguramiento según el estado clínico, en la siguiente infografía se profundizará sobre estos dos lineamientos:
+        p.text-white.margenTextoCuadro.mb-3 Al respecto la Ley 1709 ordena realizar exámenes de ingreso y egreso y el lugar de la medida de aseguramiento según el estado clínico, en la siguiente infografía se profundizará sobre estos dos lineamientos:
         a.boton.color-acento-botones.texto-blanco.ms-5.mb-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
           span Descargar
           i.fas.fa-file-download    
     .row.align-items-center.my-5
-      .col-lg-7.col-md-7.fondo2.py-2
+      .col-lg-7.col-md-7.fondo2.py-2.col-xl-8.col-xxl-7
         h4.mb-0.text-center.text-white.text-bold Atención intramural de las personas privadas de la libertad en salud mental 
     .row.mb-2
       .col-lg-6.col-md-10
@@ -38,7 +38,7 @@
         span.color-texto.text-bold psiquiatría, medicina general, enfermería, psicología, trabajo social y terapia ocupacional y la red de servicios intramural y extramural en el territorio nacional 
         span , incluyendo actividades, procedimientos, intervenciones, insumos médicos, medicamentos y demás tecnologías en salud, que se requieran para la atención integral e integrada en salud mental de conformidad con lo preceptuado en la normatividad vigente, teniendo en cuenta la infraestructura disponible y el número total de las personas privadas de la libertad por Establecimiento de Reclusión del Orden Nacional (ERON).
         .row.mt-3
-          .col-lg-2.col-md-6.col-sm-4
+          .col-lg-2.col-md-2.col-sm-2.col-3
             img(src="@/assets/curso/tema2/lineas.svg")
           .col-lg-10.col-md-12
             p La atención integral en salud mental está enfocada en la prevención, atención integral e integrada, inclusión social, prevención del consumo de sustancias psicoactivas, eliminación de estigmas y la discriminación del enfermo mental garantizando el derecho a la salud mental.
@@ -51,15 +51,16 @@
       .col-12
         .row
           .col-1
-          .col-lg-4.col-md-10
+          .col-lg-5.col-md-10
             .titulo-sexto.color-acento-contenido.ms-5
-              p Acciones promocionales de la salud mental
+              h5 Figura 1 
+              span Acciones promocionales de la salud mental
         .row.justify-content-center
           .col-lg-9.col-md-12
             img(src="@/assets/curso/tema2/grafico1.svg")
     .row
       .col-lg-5.col-md-12
-        img(src="@/assets/curso/tema2/imagen3.png")
+        img.mb-4(src="@/assets/curso/tema2/imagen3.png")
       .col-lg-7.col-md-12
         .row.align-items-center.mb-3
           .col-lg-6.col-md-7.fondo2.py-2.ms-3
@@ -82,7 +83,7 @@
             | Suicidio.
 
     .row.align-items-center.my-4
-      .col-lg-2.col-md-7.fondo2.py-2.ms-3
+      .col-lg-3.col-md-7.fondo2.py-2.ms-3.col-4.col-xl-2
         h4.mb-0.text-center.text-white.text-bold Consulta externa
     p.mb-5 La consulta externa es la atención que imparten los médicos a pacientes ambulatorios de las especialidades médicas que se ofrecen, consiste en realizar un interrogatorio y exploración física minuciosa para un diagnóstico.
 
@@ -115,24 +116,25 @@
     .row.justify-content-center.fondo5.my-5.p-5.correr-izq.correr-der
       .col-12
         p.text-center Conforme al alcance, se cuenta con los siguientes profesionales:
-      .row.justify-content-center.align-items-end
-        .col-lg-3.col-md-12
+      .row.justify-content-center.alineacion
+        .col-xxl-3.col-lg-3.col-md-12.col-xl-3
           p.mb-5.text-bold Atención Nacional Clínica Nuestra Señora de la Paz y Clínica Basilia: 
-        .col-lg-4.col-md-5.col-sm-5.fondo8.me-4.bajar.bordes
-          img.mt-3.reducir(src='@/assets/curso/tema2/figura1.svg')
+        .col-xxl-4.col-xl-4.col-lg-4.col-md-5.col-sm-5.fondo8.margenCuadroAmarillo.bajar.bordes.margen-tarjeta-abajo
+          img.mt-4.reducir(src='@/assets/curso/tema2/figura1.svg')
           p.text-center.text-bold.mt-5 Médico psiquiatra
           p.text-center.mb-5 Atención mensual a pacientes de control del programa y usuarios nuevos previa gestión de autorización y cumplimiento de ruta.
-        .col-lg-4.col-md-5.col-sm-5.fondo8.mt-2.bajar.bordes
-          img.my-3.reducir(src='@/assets/curso/tema2/figura2.svg')
+        .col-xxl-4.col-xl-4.col-lg-4.col-md-5.col-sm-5.fondo8.bajar.bordes
+          img.my-4.reducir(src='@/assets/curso/tema2/figura2.svg')
           p.text-center.text-bold.mt-5 Auxiliar de enfermería
           br
-          p.text-center.mb-5 En los ERON con más de treinta (30) pacientes en tratamiento.
+          p.text-center.margen-tarjeta En los ERON con más de treinta (30) pacientes en tratamiento.
     p.my-5 Unidad de Salud Mental de paso en establecimiento penitenciario, donde están los profesionales: 
     .row
       .col-lg-2
-      .col-lg-3
+      .col-lg-4
         .titulo-sexto.color-acento-contenido.ms-5
-          p Equipo interdisciplinario
+          h5 Figura 2 
+          span Equipo interdisciplinario
     .row
       .col-lg-2
       .col-lg-7.col-md-7.fondo8.py-2.ms-5
@@ -163,40 +165,43 @@
     .row.correr-der.correr-izq
       .col-12.fondo9
         .row.align-items-center.my-5.ms-5
-          .col-lg-8.col-md-7.fondo2.py-2
+          .col-lg-11.col-md-8.fondo2.py-2.col-xl-9.col-xxl-8.col-10
             h4.mb-0.text-center.text-white.text-bold Rutas de acceso a la prestación de servicio de salud mental contratado por la Fiduciaria Central
         .row.justify-content-center
-          .col-7
+          .col-10.col-sm-7
             p.text-center Para el acceso a psiquiatría de pacientes nuevos se debe seguir el siguiente proceso: 
         .row
           .col-lg-2
           .col-lg-7
             .titulo-sexto.color-acento-contenido.ms-4
-              p Acceso psiquiatría pacientes nuevos
+              h5 Figura 3
+              span Acceso psiquiatría pacientes nuevos
         .row.justify-content-center
-          .col-lg-8.col-md-10.col-sm-10
-            img(src='@/assets/curso/tema2/grafico2.svg')
+          .col-lg-8.col-md-10.col-sm-10.col-xs-9
+            img.reducirgrafica(src='@/assets/curso/tema2/grafico2.svg')
         .row.my-5
           .col-12
             p.text-center Para el acceso al control por la especialidad de psiquiatría:
         .row
           .col-lg-7.ms-4
             .titulo-sexto.color-acento-contenido.ms-5
-              p Acceso control por la especialidad de psiquiatría
+              h5 Figura 4 
+              span Acceso control por la especialidad de psiquiatría
         .row
-          .col-11.ms-4
-            img.my-5.ms-5(src='@/assets/curso/tema2/grafico3.svg')
+          .col-11.ms-4.col-sm-10
+            img.my-5.ms-5.reducirgrafica(src='@/assets/curso/tema2/grafico3.svg')
 
-        .row.my-5
+        .row.my-5 
           .col-12
             p.text-center El acceso al control por la especialidad de la hospitalización psiquiatría:
         .row
-          .col-lg-7.ms-4
+          .col-lg-7.ms-4.col-sm-12
             .titulo-sexto.color-acento-contenido.ms-5
-              p Acceso control por la especialidad de la hospitalización psiquiatría
+              h5 Figura 5 
+              span Acceso control por la especialidad de la hospitalización psiquiatría
         .row
-          .col-11.ms-4
-            img.my-5.ms-5(src='@/assets/curso/tema2/grafico4.svg')
+          .col-11.ms-4.col-sm-10
+            img.my-5.ms-5.reducirgrafica(src='@/assets/curso/tema2/grafico4.svg')
     p.my-5 A continuación, en las tablas 1 y 2, se presentan los procesos de acceso a la Unidad de Salud Mental de Paso en establecimiento penitenciario y el de traslado de ERON a pacientes del Programa de Salud Mental.
     .row.my-4
       .col-lg-7
