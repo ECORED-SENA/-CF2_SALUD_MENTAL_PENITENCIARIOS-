@@ -8,7 +8,7 @@
         span 3
       h1 Atención social y tratamiento penitenciario
     .row.my-5
-      .col-lg-4.col-12-sm.col-md-10
+      .col-lg-4.col-sm-12.col-md-10
         p La atención social se orienta a ofrecer acciones protectoras mediante los servicios de salud, alimentación, habitabilidad, comunicación familiar, desarrollo espiritual, asesoría jurídica y uso adecuado del tiempo libre, que prevengan o minimicen, hasta donde sean posibles los efectos del proceso de prisionalización.
         .row
           .col-lg-3.col-md-4.col-sm-6
@@ -41,55 +41,55 @@
 
               div(titulo="Tratamiento penitenciario")
                 p.ms-5 El proceso de tratamiento penitenciario inicia desde el momento en que el PPL es condenado(a) en única, primera y segunda instancia, o cuyo recurso de casación se encuentre pendiente, e ingresa a la fase de observación, diagnóstico y clasificación y finaliza una vez obtenga la libertad. El responsable del área jurídica del establecimiento remitirá semanalmente las copias de los fallos condenatorios de los que tenga conocimiento al CET, para iniciar el proceso de tratamiento penitenciario
-          .row.mx-1
-            .col-lg-6.col-md-10.col-sm-12
-              .row.my-4.ms-1
-                .col-6.fondo2.py-2
-                  h4.mb-0.text-center.text-white.text-bold Programas de atención social
-              .row
-                .col-12
-                  p.mb-4 Los programas sociales son un conjunto de instrumentos que tienen por objetivo contribuir a la mejora de las condiciones de vida de la población penitenciaria, entre ellos están:
-              .titulo-sexto.color-secundario
-                h5.color-texto.text-bold Programa de atención psicología penitenciaria:
-              .row
-                .col-11
-                  p.mb-4 Implementa acciones pertinentes a la atención e intervención psicológica de la población privada de la libertad, orientados al fortalecimiento y desarrollo de habilidades, destrezas, actitudes, y potencialidades en los internos(as), con el fin de minimizar los efectos adversos de la prisionalización, y fortalecer procesos psicológicos en busca de su integración social positiva, y en cumplimiento de los procesos de atención social y tratamiento penitenciario.
-
-              .titulo-sexto.color-secundario
-                h5.color-texto.text-bold Componentes
-              LineaTiempoD.color-primario.mb-4
-                .row.justify-content-start(numero="1" titulo="Asistencia psicológica")
-                  .col-sm-9.mb-4.mb-md-0.col-xs-12
-                    p.text-small.me-4 Busca ofrecer apoyo profesional mediante una acción preventiva y orientativa a las personas privadas de la libertad que necesitan ayuda para tomar decisiones o resolver problemas que alteran su ritmo de vida normal debido a los efectos emocionales, somáticos, culturales y psicosociales generados por la prisionalización, además de ofrecer orientación, implica también, apoyó, discusión de temas en función de objetivos, desarrollo de una planificación, establecimiento de metas, etc.
-                
-                  .col-3.imagenes
-                    figure
-                      img.correr-izqFig(src='@/assets/template/tema3/ideas.svg')
-
-                .row(numero="2" titulo="Orientación psicojurídica")
-                  .col-sm-9.mb-4.mb-md-0.col-xs-12
-                    p.text-small.me-4 Su objetivo es prestar asesoría respecto a los procedimientos del establecimiento desde el marco legal y jurisprudencial, así como en los componentes de índole psicológica. Además, mejorar la comprensión de su situación jurídica, sus implicaciones en su proyecto de vida intramural y la proyección en libertad, para que adquiera un rol activo en su proceso.
-                  .col-3
-                    figure
-                      img.correr-izqFig.imagenes(src='@/assets/template/tema3/balanza.svg')
-                
-                .row(numero="3" titulo="Atención en crisis emocional")
-                  .col-sm-9.mb-4.mb-md-0.col-xs-12
-                    p.text-small.me-4 Busca determinar las actividades a seguir para realizar contención emocional, remisión y seguimiento de las PPL que acudan al servicio de psicología en estado de crisis emocional y requieran de primeros auxilios psicológicos y/o atención en crisis.
-                
-                  .col-3
-                    figure
-                      img.correr-izqFig.imagenes(src='@/assets/template/tema3/crisis.svg')
-            .col-1
-            .col-lg-5.col-md-10.col-sm-12.correr-izqimg
-              img(src="@/assets/curso/tema3/profesional.png")
-
-            .titulo-sexto.color-secundario.ms-2
-              h5.color-texto.text-bold Programa de atención a menores de tres (3) años en establecimientos de reclusión:
+        .row.mx-3
+          .col-lg-6.col-md-10.col-sm-12
+            .row.my-4.ms-1
+              .col-6.fondo2.py-2
+                h4.mb-0.text-center.text-white.text-bold Programas de atención social
+            .row
+              .col-12
+                p.mb-4 Los programas sociales son un conjunto de instrumentos que tienen por objetivo contribuir a la mejora de las condiciones de vida de la población penitenciaria, entre ellos están:
+            .titulo-sexto.color-secundario
+              h5.color-texto.text-bold Programa de atención psicología penitenciaria:
             .row
               .col-11
-                p Para asegurar a los niños menores de tres años que viven con sus madres en los Establecimientos de Reclusión del Orden Nacional la protección y el ejercicio de sus derechos, a través de la atención integral, tomando las medidas necesarias para su bienestar 
-                  span.color-texto.text-bold (Ley 65 de 1993, Art. 153, modificado por Ley 1709 de 2014, art. 88).
+                p.mb-4 Implementa acciones pertinentes a la atención e intervención psicológica de la población privada de la libertad, orientados al fortalecimiento y desarrollo de habilidades, destrezas, actitudes, y potencialidades en los internos(as), con el fin de minimizar los efectos adversos de la prisionalización, y fortalecer procesos psicológicos en busca de su integración social positiva, y en cumplimiento de los procesos de atención social y tratamiento penitenciario.
+
+            .titulo-sexto.color-secundario
+              h5.color-texto.text-bold Componentes
+            LineaTiempoD.color-primario.mb-4
+              .row.justify-content-start(numero="1" titulo="Asistencia psicológica")
+                .col-sm-9.mb-4.mb-md-0.col-xs-12
+                  p.text-small.me-4 Busca ofrecer apoyo profesional mediante una acción preventiva y orientativa a las personas privadas de la libertad que necesitan ayuda para tomar decisiones o resolver problemas que alteran su ritmo de vida normal debido a los efectos emocionales, somáticos, culturales y psicosociales generados por la prisionalización, además de ofrecer orientación, implica también, apoyó, discusión de temas en función de objetivos, desarrollo de una planificación, establecimiento de metas, etc.
+              
+                .col-3.imagenes
+                  figure
+                    img.correr-izqFig(src='@/assets/template/tema3/ideas.svg')
+
+              .row(numero="2" titulo="Orientación psicojurídica")
+                .col-sm-9.mb-4.mb-md-0.col-xs-12
+                  p.text-small.me-4 Su objetivo es prestar asesoría respecto a los procedimientos del establecimiento desde el marco legal y jurisprudencial, así como en los componentes de índole psicológica. Además, mejorar la comprensión de su situación jurídica, sus implicaciones en su proyecto de vida intramural y la proyección en libertad, para que adquiera un rol activo en su proceso.
+                .col-3
+                  figure
+                    img.correr-izqFig.imagenes(src='@/assets/template/tema3/balanza.svg')
+              
+              .row(numero="3" titulo="Atención en crisis emocional")
+                .col-sm-9.mb-4.mb-md-0.col-xs-12
+                  p.text-small.me-4 Busca determinar las actividades a seguir para realizar contención emocional, remisión y seguimiento de las PPL que acudan al servicio de psicología en estado de crisis emocional y requieran de primeros auxilios psicológicos y/o atención en crisis.
+              
+                .col-3
+                  figure
+                    img.correr-izqFig.imagenes(src='@/assets/template/tema3/crisis.svg')
+          .col-1
+          .col-lg-5.col-md-10.col-sm-12.correr-izqimg
+            img(src="@/assets/curso/tema3/profesional.png")
+
+          .titulo-sexto.color-secundario.ms-2
+            h5.color-texto.text-bold Programa de atención a menores de tres (3) años en establecimientos de reclusión:
+          .row
+            .col-11
+              p Para asegurar a los niños menores de tres años que viven con sus madres en los Establecimientos de Reclusión del Orden Nacional la protección y el ejercicio de sus derechos, a través de la atención integral, tomando las medidas necesarias para su bienestar 
+                span.color-texto.text-bold (Ley 65 de 1993, Art. 153, modificado por Ley 1709 de 2014, art. 88).
 
           .tarjeta--container.row.my-5.mx-2
             .col-md.tarjeta.color-primario.p-5
@@ -109,7 +109,7 @@
               p.text-white.text-center  Niños y niñas hasta los tres (3) años de edad, mujeres gestantes y madres en periodo de lactancia que se encuentran internas en los establecimientos de reclusión de mujeres a cargo del Inpec.
         .row
           .col-lg-4.col-md-10.col-sm-12
-            img.mb-2(src='@/assets/curso/tema3/Grupo.png')
+            img.mb-2.ms-3(src='@/assets/curso/tema3/Grupo.png')
           .col-lg-8.col-md-10.col-sm-12
             .titulo-sexto.color-secundario.mb-1.mt-2.margenTitulo
               h5.color-texto.text-bold Programa de atención a familia:

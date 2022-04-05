@@ -16,17 +16,20 @@
         span.color-texto.text-bold Al respecto, la Ley 1709 de 2014 
         span ordena los siguiente:
 
-    .row.fondo4
-      .col-1
-      .col-lg-3.col-md-3
-        img.m-5.imagenes(src="@/assets/curso/tema1/figura1.png")
-      .col-lg-8.col-md-8.padCuadro
-        .titulo-segundo.color-acento-contenido.margenTextoCuadro.mt-5.mb-3
-          h2.text-white.text-bold Enfermedad mental
-        p.text-white.margenTextoCuadro.mb-3 Al respecto la Ley 1709 ordena realizar exámenes de ingreso y egreso y el lugar de la medida de aseguramiento según el estado clínico, en la siguiente infografía se profundizará sobre estos dos lineamientos:
-        a.boton.color-acento-botones.texto-blanco.ms-5.mb-3(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-          span Descargar
-          i.fas.fa-file-download    
+    .tarjeta.fondo4.p-4.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/tema1/figura1.png")
+
+        .col-md.col-lg-6
+          .titulo-segundo.color-acento-contenido.mb-5
+            h3.text-white.text-bold Enfermedad mental
+          p.mb-4.text-white Al respecto la Ley 1709 ordena realizar exámenes de ingreso y egreso y el lugar de la medida de aseguramiento según el estado clínico, en la siguiente infografía se profundizará sobre estos dos lineamientos:
+          
+          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Enfermedad_mental.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
+
     .row.align-items-center.my-5
       .col-lg-7.col-md-7.fondo2.py-2.col-xl-8.col-xxl-7
         h4.mb-0.text-center.text-white.text-bold Atención intramural de las personas privadas de la libertad en salud mental 
@@ -39,7 +42,7 @@
         span , incluyendo actividades, procedimientos, intervenciones, insumos médicos, medicamentos y demás tecnologías en salud, que se requieran para la atención integral e integrada en salud mental de conformidad con lo preceptuado en la normatividad vigente, teniendo en cuenta la infraestructura disponible y el número total de las personas privadas de la libertad por Establecimiento de Reclusión del Orden Nacional (ERON).
         .row.mt-3
           .col-lg-2.col-md-2.col-sm-2.col-3
-            img(src="@/assets/curso/tema2/lineas.svg")
+            img.mb-3(src="@/assets/curso/tema2/lineas.svg")
           .col-lg-10.col-md-12
             p La atención integral en salud mental está enfocada en la prevención, atención integral e integrada, inclusión social, prevención del consumo de sustancias psicoactivas, eliminación de estigmas y la discriminación del enfermo mental garantizando el derecho a la salud mental.
       .col-lg-6.col-md-10
@@ -119,12 +122,12 @@
       .row.justify-content-center.alineacion
         .col-xxl-3.col-lg-3.col-md-12.col-xl-3
           p.mb-5.text-bold Atención Nacional Clínica Nuestra Señora de la Paz y Clínica Basilia: 
-        .col-xxl-4.col-xl-4.col-lg-4.col-md-5.col-sm-5.fondo8.margenCuadroAmarillo.bajar.bordes.margen-tarjeta-abajo
-          img.mt-4.reducir(src='@/assets/curso/tema2/figura1.svg')
+        .col-xxl-4.col-lg-4.col-md-5.col-sm-5.fondo8.margenCuadroAmarillo.bajar.bordes.margen-tarjeta-abajo
+          img.mt-5.reducir(src='@/assets/curso/tema2/figura1.svg')
           p.text-center.text-bold.mt-5 Médico psiquiatra
           p.text-center.mb-5 Atención mensual a pacientes de control del programa y usuarios nuevos previa gestión de autorización y cumplimiento de ruta.
         .col-xxl-4.col-xl-4.col-lg-4.col-md-5.col-sm-5.fondo8.bajar.bordes
-          img.my-4.reducir(src='@/assets/curso/tema2/figura2.svg')
+          img.my-5.reducir(src='@/assets/curso/tema2/figura2.svg')
           p.text-center.text-bold.mt-5 Auxiliar de enfermería
           br
           p.text-center.margen-tarjeta En los ERON con más de treinta (30) pacientes en tratamiento.

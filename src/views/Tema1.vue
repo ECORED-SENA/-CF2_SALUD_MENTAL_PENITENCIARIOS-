@@ -41,17 +41,21 @@
       .col-lg-3.col-md-6.fondo2.py-2.anchoTitulo
         h4.mb-0.text-white.text-bold Factores de riesgo asociado
     p.my-5 Como lo anotan Laverde y Tuberquia (2019), se han encontrado factores de riesgo que influyen directamente en la calidad de vida de la persona privada de la libertad, como son:
-    .row.fondo4
-      .col-1
-      .col-lg-3.col-md-12
-        img.mt-5.reducirFig2(src="@/assets/curso/tema1/figura1.png")
-      .col-lg-8.col-md-12.px-5
-        .titulo-segundo.color-acento-contenido.mb-5
-          h2.text-white.text-bold Entornos Penitenciarios
-        p.m-5.text-white Como lo anota Laverde y Tuberquia (2019) se han encontrado factores de riesgo que influyen directamente en la calidad de vida de la persona privada de la libertad, en la siguiente infografía  se  presentan estos  factores de riesgo que impactan  a esta población:
-        a.boton.color-acento-botones.texto-blanco.ms-5.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-          span Descargar
-          i.fas.fa-file-download
+
+    .tarjeta.fondo4.p-4.p-md-5.mb-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/tema1/figura1.png")
+
+        .col-md.col-lg-6
+          .titulo-segundo.color-acento-contenido.mb-5
+            h3.text-white.text-bold Entornos Penitenciarios
+          p.mb-4.text-white En la siguiente infografía  se  presentan estos  factores de riesgo que impactan  a esta población:
+          
+          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/entornos_penitenciarios.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
+
 </template>
 
 <script>
