@@ -4,9 +4,6 @@
 .fondo2
   background-color: #3ba3f8
 
-.fondo3
-  background-color: #aed4f5 !important
-
 .fondo4
   background-color: #133D60
   border-radius: 0
@@ -35,12 +32,6 @@
   background-repeat: no-repeat
   background-position: center
 
-.fondo11
-  background-image: url('../assets/curso/tema1/fondotema1.jpg')
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: center
-
 .fondo12
   background-color: #F6F6F6
 
@@ -65,23 +56,22 @@
   background-color: #F6525D !important
   margin-left: 15px
 
+.slyder__btn:nth-child(3)
+  display: block
+  width: 30px
+  height: 30px
+  position: relative
+  background-color: #E2E2E2 !important
+  margin-left: 15px
+
 .correr-izq
   margin-left: -50px
 
 .correr-der
   margin-right: -50px
 
-.correr-img
-  margin-left: 70px
-
 .bajar
   margin-bottom: -80px
-
-.correr-izq30
-  margin-left: -30px
-
-.correr-izq10
-  margin-left: -10px
 
 .lista-ol--cuadro__vineta
     background-color: #133D60 !important
@@ -100,10 +90,6 @@
 .reducir80
   width: 80%
   margin: 10px auto
-
-.aumentar
-  width: 150px
-  height: 150px
 
 .tabla-a th 
   border-color: #e8e8e8
@@ -134,10 +120,6 @@
   font-weight: 700
   background-color: #aed4f5
 
-.pt-0 
-  padding-top: 0!important
-  background-color: #aed4f5
-
 .lista-ul--color li > i:first-of-type 
   color: #133D60 !important
 
@@ -155,10 +137,7 @@
 .slyder-d__content__card
   background-color: #DEEEFC !important
   width: 600px
-
-td 
-  line-height: 1.5
-  background-color: #F6F6F6
+  height: 130px
 
 .tarjeta--azul
   background-color: #DFEAF1
@@ -169,15 +148,7 @@ td
 .anchoTitulo
   width: 252px
 
-.figura1
-  z-index: 0
-
-.figura2
-  z-index: 1
-
 @media (max-width: 2400px)
-  .margenAcordion
-    margin-left: 3.5em
   .margenTexto
     margin-left: 0em !important
     margin-right: 0.9em
@@ -185,22 +156,22 @@ td
     margin-left: 0
   .correr-izqBloq
     margin-left: -50px
-  .margenCuadroAmarillo
-    margin-right: 10px
   .alineacion
     align-items: end
-  .margenTextoBarra
-    margin-left: 3.5em
   .correr-izqimg
     margin-left: -50px
   .margen-tarjeta
+    margin-bottom: 2.7em
+  .margen-texto
     margin-bottom: 3em
+
+@media (max-width: 1400px)
+  .margen-tarjeta
+    margin-bottom: 4em 
 
 @media (max-width: 1200px)
   .bajar
     margin-bottom: -80px
-  .margenCuadroAmarillo
-    margin-right: 10px
   .alineacion
     align-items: end
   .margenTexto
@@ -211,15 +182,13 @@ td
   .correr-izqimg
     margin-left: -50px
   .margen-tarjeta
-    margin-bottom: 6em
+    margin-bottom: 5.5em
 
 @media (max-width: 992px)
   .celular
     display: none
   .correr-izqFig
     margin-left: -20px
-  .margenAcordion
-    margin-left: 0
   .margenTexto
     margin-left: 0
     margin-right: 0.9em
@@ -227,19 +196,17 @@ td
     margin-left: 0
   .correr-izqBloq
     margin-left: 0
-  .margenCuadroAmarillo
-    margin-right: 10px
   .alineacion
     align-items: end
   .correr-izqimg
     margin-left: 0
-  .margenTextoBarra
-    margin-left: 1em
-  .correr
-    margin-left: -60px
   .slyder-d__content__card
     background-color: #DEEEFC !important
     width: 500px
+  .bajar
+    margin-bottom: 0
+  .margen-texto
+    margin-bottom: 0.5em
 
 @media (max-width: 768px)
   .margenTitulo
@@ -248,21 +215,19 @@ td
     margin-left: 0
   .imagenes
     display: none
-  .margenCuadroAmarillo
-    margin-right: 10px
   .alineacion
     align-items: start !important
   .correr-izqimg
     margin-left: 0
-  .margenTextoBarra
-    margin-left: 1em
   .margenTexto
     margin-left: 1.5em !important
     margin-right: 2em
-  .correr
-    margin-left: -60px
   .margen-tarjeta
     margin-bottom: 4.5em
+  .margen-texto
+    margin-bottom: 0.5em
+  .margen-texto2
+    margin-bottom: 0
 
 @media (max-width: 576px)
   .imagenes
@@ -274,18 +239,10 @@ td
     margin-left: 1.5em
   .correr-izqBloq
     margin-left: 0
-  .margenCuadroAmarillo
-    margin-right: 0
   .alineacion
     align-items: start !important
   .correr-izqimg
     margin-left: 0
-  .margenTextoBarra
-    margin-left: 1em
-  .correr
-    margin-left: -60px
-  .margen-tarjeta-abajo
-    margin-bottom: 2em
   .reducir80
     width: 40%
     margin: 10px auto
@@ -295,3 +252,9 @@ td
   .slyder-d__content__card
     background-color: #DEEEFC !important
     width: 350px
+  .bajar
+    margin-bottom: 0
+  .margen-texto
+    margin-bottom: 0.5em
+  .margen-texto2
+    margin-bottom: 0

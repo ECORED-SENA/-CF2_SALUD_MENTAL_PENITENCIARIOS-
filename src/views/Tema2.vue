@@ -18,7 +18,7 @@
 
     .tarjeta.fondo4.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0(data-aos="zoom-in")
           img(src="@/assets/curso/tema1/figura1.png")
 
         .col-md.col-lg-6
@@ -42,10 +42,10 @@
         span , incluyendo actividades, procedimientos, intervenciones, insumos médicos, medicamentos y demás tecnologías en salud, que se requieran para la atención integral e integrada en salud mental de conformidad con lo preceptuado en la normatividad vigente, teniendo en cuenta la infraestructura disponible y el número total de las personas privadas de la libertad por Establecimiento de Reclusión del Orden Nacional (ERON).
         .row.mt-3
           .col-lg-2.col-md-2.col-sm-2.col-3
-            img.mb-3(src="@/assets/curso/tema2/lineas.svg")
+            img.mb-3.celular(src="@/assets/curso/tema2/lineas.svg")
           .col-lg-10.col-md-12
             p La atención integral en salud mental está enfocada en la prevención, atención integral e integrada, inclusión social, prevención del consumo de sustancias psicoactivas, eliminación de estigmas y la discriminación del enfermo mental garantizando el derecho a la salud mental.
-      .col-lg-6.col-md-10
+      .col-lg-6.col-md-10(data-aos="zoom-in-up")
         img(src="@/assets/curso/tema2/imagen2.png")
     span.mb-3 En concordancia con la normativa expuesta, las personas jurídicamente declaradas inimputables se encuentran a cargo del Ministerio de Salud y de Protección Social (MinSalud); en caso de personas condenadas que presentan enfermedad mental que ingresan por primera vez o se encuentran al interior de los ERON, son valorados por la especialidad de psiquiatría para determinar el tratamiento farmacológico y psicoterapéutico a seguir; 
     span.color-texto.text-bold servicios que se encuentran a cargo de los prestadores de servicios de salud de acuerdo con el Manual técnico administrativo para la prestación de servicio de salud de la siguiente manera:
@@ -62,7 +62,7 @@
           .col-lg-9.col-md-12
             img(src="@/assets/curso/tema2/grafico1.svg")
     .row
-      .col-lg-5.col-md-12
+      .col-lg-5.col-md-12(data-aos="zoom-in")
         img.mb-4(src="@/assets/curso/tema2/imagen3.png")
       .col-lg-7.col-md-12
         .row.align-items-center.mb-3
@@ -98,7 +98,7 @@
     span , a la fecha la prestación de servicios contratada por la fiduciaria central es la siguiente: 
 
     .tarjeta--container.row.my-5.mx-2
-      .col-md.tarjeta.color-primario.p-5
+      .col-md.tarjeta.color-primario.p-5(data-aos="flip-right")
         .row.justify-content-center.mb-4
           .col-6
             h5.text-center CLÁUSULA PRIMERA
@@ -107,7 +107,7 @@
               img(src='@/assets/componentes/tema2/figura1.svg')
         p.text-center Prestación integral de servicios de salud de mediana-alta complejidad a la población privada de la libertad bajo la custodia y vigilancia del Instituto Nacional Penitenciario y Carcelario – Inpec, en la especialidad de salud mental en cumplimiento del modelo de atención en salud establecido en la Resolución 5159 de 2015, modificada por la Resolución 3595 de 2016 expedidas por el Ministerio de Salud y Protección social, garantizando los servicios intramurales en los ERON y extramurales en las instalaciones debidamente habilitadas.
 
-      .col-md.tarjeta.fondo7.p-5
+      .col-md.tarjeta.fondo7.p-5(data-aos="flip-right")
         .row.justify-content-center.mb-4
           .col-6
             h5.text-center.text-white CLÁUSULA SEGUNDA
@@ -121,16 +121,23 @@
         p.text-center Conforme al alcance, se cuenta con los siguientes profesionales:
       .row.justify-content-center.alineacion
         .col-xxl-3.col-lg-3.col-md-12.col-xl-3
-          p.mb-5.text-bold Atención Nacional Clínica Nuestra Señora de la Paz y Clínica Basilia: 
-        .col-xxl-4.col-lg-4.col-md-5.col-sm-5.fondo8.margenCuadroAmarillo.bajar.bordes.margen-tarjeta-abajo
-          img.mt-5.reducir(src='@/assets/curso/tema2/figura1.svg')
-          p.text-center.text-bold.mt-5 Médico psiquiatra
-          p.text-center.mb-5 Atención mensual a pacientes de control del programa y usuarios nuevos previa gestión de autorización y cumplimiento de ruta.
-        .col-xxl-4.col-xl-4.col-lg-4.col-md-5.col-sm-5.fondo8.bajar.bordes
-          img.my-5.reducir(src='@/assets/curso/tema2/figura2.svg')
-          p.text-center.text-bold.mt-5 Auxiliar de enfermería
-          br
-          p.text-center.margen-tarjeta En los ERON con más de treinta (30) pacientes en tratamiento.
+          p.margen-texto.text-bold Atención Nacional Clínica Nuestra Señora de la Paz y Clínica Basilia: 
+
+        .col-xxl-4.col-md-5.col-sm-6.col-lg.mb-5.mb-lg-0.bajar(data-aos="flip-right")
+          .tarjeta-avatar.bajar
+            .tarjeta.fondo8
+              img.reducir(src='@/assets/curso/tema2/figura1.svg')
+              .p-4
+                h2.text-center Médico psiquiatra
+                p.margen-texto2 Atención mensual a pacientes de control del programa y usuarios nuevos previa gestión de autorización y cumplimiento de ruta.
+        .col-xxl-4.col-md-5.col-sm-6.col-lg.mb-5.mb-lg-0(data-aos="flip-right")
+          .tarjeta-avatar.bajar
+            .tarjeta.fondo8
+              img.reducir(src='@/assets/curso/tema2/figura2.svg')
+              .p-4
+                h2.text-center Auxiliar de enfermería
+                p.margen-tarjeta En los ERON con más de treinta (30) pacientes en tratamiento.
+
     p.my-5 Unidad de Salud Mental de paso en establecimiento penitenciario, donde están los profesionales: 
     .row
       .col-lg-2

@@ -156,9 +156,9 @@ export default {
     },
     {
       texto:
-        'Congreso de Colombia. (1993). Ley 63 de 1993. Por la cual se expide el Código Penitenciario y Carcelario. 26 de julio de 2006. D.O. No. 40.999.',
+        'Congreso de Colombia. (1993). Ley 65 de 1993. Por la cual se expide el Código Penitenciario y Carcelario. 26 de julio de 2006. D.O. No. 40.999.',
       tipo: 'Ley de la República de Colombia',
-      descarga: [
+      link: [
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_0065_1993.html#:~:text=Diario%20Oficial%20No.,el%20C%C3%B3digo%20Penitenciario%20y%20Carcelario.&text=Nadie%20puede%20ser%20sometido%20a,previamente%20definido%20en%20la%20ley',
       ],
     },

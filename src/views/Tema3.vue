@@ -13,7 +13,7 @@
         .row
           .col-lg-3.col-md-4.col-sm-6
             img.celular(src="@/assets/curso/tema3/puntos.svg")
-      .col-lg-3.col-12-sm.col-md-10
+      .col-lg-3.col-12-sm.col-md-10(data-aos="zoom-in")
         img(src="@/assets/curso/tema3/reo.png")
       .col-lg-5.col-12-sm.col-md-10.fondo5
         .row
@@ -27,7 +27,7 @@
     .row.correr-izq.correr-der
       .col-12.fondo10
         .row
-          .col-lg-5.col-md-10.col-sm-12
+          .col-lg-5.col-md-10.col-sm-12(data-aos="zoom-in")
             img.ms-4(src="@/assets/curso/tema3/sicologa.png")
           .col-lg-7.col-md-10.col-sm-12
             .row.align-items-center.mt-2.ms-3
@@ -81,7 +81,7 @@
                   figure
                     img.correr-izqFig.imagenes(src='@/assets/template/tema3/crisis.svg')
           .col-1
-          .col-lg-5.col-md-10.col-sm-12.correr-izqimg
+          .col-lg-5.col-md-10.col-sm-12.correr-izqimg(data-aos="zoom-in-up")
             img(src="@/assets/curso/tema3/profesional.png")
 
           .titulo-sexto.color-secundario.ms-2
@@ -92,7 +92,7 @@
                 span.color-texto.text-bold (Ley 65 de 1993, Art. 153, modificado por Ley 1709 de 2014, art. 88).
 
           .tarjeta--container.row.my-5.mx-2
-            .col-md.tarjeta.color-primario.p-5
+            .col-md.tarjeta.color-primario.p-5(data-aos="flip-right")
               .row.justify-content-center.mb-4
                 .col-6
                   figure
@@ -100,7 +100,7 @@
               h5.text-center.text-white El objetivo general de la modalidad 
               p.text-center.text-white Apoyar la atención integral desde su gestación hasta los tres (3) años de los niños que se encuentran en los establecimientos de reclusión de mujeres, mediante acciones que apoyen su desarrollo integral y fortalezcan los vínculos afectivos con sus familias y cuidadores. 
 
-            .col-md.tarjeta.fondo7.p-5
+            .col-md.tarjeta.fondo7.p-5(data-aos="flip-right")
               .row.justify-content-center.mb-4
                 .col-6
                   figure
@@ -108,7 +108,7 @@
               h5.text-center.text-white A quién beneficia el programa
               p.text-white.text-center  Niños y niñas hasta los tres (3) años de edad, mujeres gestantes y madres en periodo de lactancia que se encuentran internas en los establecimientos de reclusión de mujeres a cargo del Inpec.
         .row
-          .col-lg-4.col-md-10.col-sm-12
+          .col-lg-4.col-md-10.col-sm-12(data-aos="zoom-in")
             img.mb-2.ms-3(src='@/assets/curso/tema3/Grupo.png')
           .col-lg-8.col-md-10.col-sm-12
             .titulo-sexto.color-secundario.mb-1.mt-2.margenTitulo
@@ -118,23 +118,26 @@
               h5.color-texto.text-bold Población objeto:
             p.mb-4.margenTexto Personas sindicadas y condenadas privadas de la libertad por orden judicial mediante un abordaje individual, grupal y/o familiar, a través de las diferentes actividades que tengan incidencia en la familia. Este programa se ejecuta desde el proceso de Atención Social (Ley 65 de 1993) y está dirigido a sindicados y condenados para facilitar y fortalecer las relaciones con la familia, y hace parte del tratamiento penitenciario para preparar a la población interna con miras a la vida familiar en libertad a través de dos modalidades:            
 
-      .row.my-5.justify-content-center
-        .col-12.correr
-          .row.align-items-center
-            .col-2.figura2
-              img.correr-img.celular(src='@/assets/curso/tema3/dialogo.svg')
-            .col-10.fondo13.figura1
-              br
-              p.margenTextoBarra <span style="color: #3BA3F8;">Orientado al Interno(a):</span> <span style="color: #fff">es el acompañamiento directo realizado al interno(a) donde se identifican las situaciones que generan temor frente al proceso que inicia la persona privada de la libertad y su interacción familiar.</span>
 
-      .row.my-5.justify-content-center
-        .col-12.correr
-          .row.align-items-center
-            .col-2.figura2
-              img.correr-img.celular(src='@/assets/curso/tema3/familia.svg')
-            .col-10.fondo13.figura1
-              br
-              p.text-white.margenTextoBarra Orientado a la familia del interno(a) las acciones que se realizan en el programa para beneficio directo de la familia del interno(a) se relacionan a continuación: a) Acercamiento familiar, b) Visita familiar, c) Celebración Día de la Familia y d) Celebración del Día de la Niñez.
+      .row.justify-content-center
+        .col-lg-9
+          .tarjeta-avatar-b.mb-5(data-aos="flip-right")
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema3/dialogo.svg')
+            .tarjeta.fondo13
+              .p-2
+                p.mb-0.mt-3 <span style="color: #3BA3F8;">Orientado al Interno(a):</span> <span style="color: #fff">es el acompañamiento directo realizado al interno(a) donde se identifican las situaciones que generan temor frente al proceso que inicia la persona privada de la libertad y su interacción familiar.</span>
+      .row.justify-content-center
+        .col-lg-9
+          .tarjeta-avatar-b.mb-5(data-aos="flip-right")
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/tema3/familia.svg')
+            .tarjeta.fondo13
+              .p-2
+                p.text-white.mb-0.mt-3 Orientado a la familia del interno(a) las acciones que se realizan en el programa para beneficio directo de la familia del interno(a) se relacionan a continuación: a) Acercamiento familiar, b) Visita familiar, c) Celebración Día de la Familia y d) Celebración del Día de la Niñez.
+
+
+
     .titulo-sexto.color-secundario.mt-5.mb-1
       h5.color-texto.text-bold Programa de atención a grupos de condiciones excepcionales:
     .row
@@ -147,12 +150,12 @@
           .col-lg-10.col-sm-12
             h5.mb-3.mt-3 Población objeto
             p Personas privadas de la libertad que pertenecen a grupos de condiciones excepcionales: adulto mayor, extranjeros, NARP (negros, afrodescendientes, raizales o palenqueros), indígenas, en condición de discapacidad y madres gestantes y lactantes. 
-      .col-lg-4.col-md-10.col-sm-12
+      .col-lg-4.col-md-10.col-sm-12(data-aos="zoom-in-up")
         img(src='@/assets/curso/tema3/reo2.png')
 
     .row
       .col-lg-4.col-md-10.col-sm-12
-        img.mb-4(src='@/assets/curso/tema3/imagen1.png')
+        img.mb-4(src='@/assets/curso/tema3/imagen1.png')(data-aos="zoom-in")
       .col-lg-8.col-md-10.col-sm-12
         .titulo-sexto.color-secundario.mb-1
           h5.color-texto.text-bold Programa de asistencia espiritual y religiosa:
@@ -210,7 +213,7 @@
               li 
                 i.fas.fa-check-circle
                 | Se deben excluir del programa los internos con diagnóstico de Trastorno Mental Grave.
-      .col-lg-5.col-md-10.col-sm-12
+      .col-lg-5.col-md-10.col-sm-12(data-aos="zoom-in-up")
         img(src='@/assets/curso/tema3/reo3.png')
     .row.align-items-center.my-4.ms-1
       .col-8.fondo2.py-2.col-md-5.col-lg-3.col-sm-6.col-xs-5

@@ -11,7 +11,7 @@
       .col-lg-6.col-md-12
         .row.justify-content-center
           .col-2
-            img(src="@/assets/curso/tema1/lineas.png")
+            img.celular(src="@/assets/curso/tema1/lineas.png")
           .col-10
             p Los entornos penitenciarios son lugares destinados al confinamiento de personas que han sido puestas en prisión preventiva por una autoridad judicial, y que han sido privadas de su libertad tras ser condenadas por un delito.
         .row.align-items-center.mt-4
@@ -21,20 +21,20 @@
           .col-12
             span.mb-0.my-3 Como lo citan Lopera y Medina (2020), la situación de salud que hoy viven las personas privadas de la libertad (PPL) trasciende el fenómeno biomédico de salud-enfermedad. Un abordaje más integral permite entenderla como resultante de la interacción entre los determinantes del orden estructural, institucional y personal. 
             span.color-texto.text-bold La situación de salud de las PPL es un problema de salud pública susceptible de transformación prioritaria.  
-      .col-lg-6.col-md-12
+      .col-lg-6.col-md-12(data-aos="zoom-in-up")
         img(src="@/assets/curso/tema1/imagen.png")
     span De otra parte, la oficina del 
     span.color-texto.text-bold Alto Comisionado de las Naciones Unidas para los Derechos Humanos en Colombia, en el informe presentado en el año 2001
     span , describió entre otras condiciones, los entornos penitenciarios en el país.
-    .row
-      .col-12.fondo11
+    .row.mt-4
+      .col-12.fondo6
         SlyderD.my-5(:datos.color-texto="datosSlyder")
 
-    .bloque-texto-c.fondo6.p-4
+    .bloque-texto-c.fondo6.p-4.mt-4
       i.fas.fa-quote-right
       h3.mb-2 Desde una perspectiva de salud pública, la compleja situación de salud en los EPC representa un riesgo no solo para las PPL, sino también para sus familias y el cuerpo de vigilancia y custodia y para la salud pública.
       .row.justify-content-end
-        .col-lg-3.col-md-6.me-2
+        .col-lg-4.col-md-6.me-2
           span.justify-content-end - (Lopera y Hernández, 2020, p. 3)
 
     .row.align-items-center.my-5.ms-1
