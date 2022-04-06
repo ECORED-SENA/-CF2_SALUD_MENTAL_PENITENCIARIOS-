@@ -27,34 +27,34 @@
     span.color-texto.text-bold Alto Comisionado de las Naciones Unidas para los Derechos Humanos en Colombia, en el informe presentado en el año 2001
     span , describió entre otras condiciones, los entornos penitenciarios en el país.
     .row.mt-4
-      .col-12.fondo6
+      .col-12.fondo14
         SlyderD.my-5(:datos.color-texto="datosSlyder")
 
-    .bloque-texto-c.fondo6.p-4.mt-4
-      i.fas.fa-quote-right
-      h3.mb-2 Desde una perspectiva de salud pública, la compleja situación de salud en los EPC representa un riesgo no solo para las PPL, sino también para sus familias y el cuerpo de vigilancia y custodia y para la salud pública.
-      .row.justify-content-end
-        .col-lg-4.col-md-6.me-2
-          span.justify-content-end - (Lopera y Hernández, 2020, p. 3)
+        .bloque-texto-c.fondo6.p-4.mt-4
+          i.fas.fa-quote-right
+          h3.mb-2 Desde una perspectiva de salud pública, la compleja situación de salud en los EPC representa un riesgo no solo para las PPL, sino también para sus familias y el cuerpo de vigilancia y custodia y para la salud pública.
+          .row.justify-content-end
+            .col-lg-4.col-md-6.me-2
+              span.justify-content-end - (Lopera y Hernández, 2020, p. 3)
 
-    .row.align-items-center.my-5.ms-1
-      .col-lg-3.col-md-6.fondo2.py-2.anchoTitulo
-        h4.mb-0.text-white.text-bold Factores de riesgo asociado
-    p.my-5 Como lo anotan Laverde y Tuberquia (2019), se han encontrado factores de riesgo que influyen directamente en la calidad de vida de la persona privada de la libertad, como son:
+        .row.align-items-center.my-5.ms-1
+          .col-lg-3.col-md-6.fondo2.py-2.anchoTitulo
+            h4.mb-0.text-white.text-bold Factores de riesgo asociado
+        p.my-5 Como lo anotan Laverde y Tuberquia (2019), se han encontrado factores de riesgo que influyen directamente en la calidad de vida de la persona privada de la libertad, como son:
 
-    .tarjeta.fondo4.p-4.p-md-5.mb-5
-      .row.justify-content-around.align-items-center
-        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-          img(src="@/assets/curso/tema1/figura1.png")
+        .tarjeta.fondo4.p-4.p-md-5.mb-5
+          .row.justify-content-around.align-items-center
+            .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+              img(src="@/assets/curso/tema1/figura1.png")
 
-        .col-md.col-lg-6
-          .titulo-segundo.color-acento-contenido.mb-5
-            h3.text-white.text-bold Entornos Penitenciarios
-          p.mb-4.text-white En la siguiente infografía  se  presentan estos  factores de riesgo que impactan  a esta población:
-          
-          a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/entornos_penitenciarios.pdf')" target="_blank" type="application/pdf")
-            span Descargar
-            i.fas.fa-file-download
+            .col-md.col-lg-6
+              .titulo-segundo.color-acento-contenido.mb-5
+                h3.text-white.text-bold Entornos Penitenciarios
+              p.mb-4.text-white En la siguiente infografía  se  presentan estos  factores de riesgo que impactan  a esta población:
+              
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/entornos_penitenciarios.pdf')" target="_blank" type="application/pdf")
+                span Descargar
+                i.fas.fa-file-download
 
 </template>
 
