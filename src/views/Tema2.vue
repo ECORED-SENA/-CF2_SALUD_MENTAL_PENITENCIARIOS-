@@ -227,7 +227,7 @@
             th Frecuencia
             th Responsable
             th Observaciones
-        tbody
+        tbody.fondo12
           tr
             td Ingreso a Unidad de Salud Mental
             td De acuerdo con la necesidad indicada por el especialista.
@@ -247,7 +247,7 @@
             th Frecuencia
             th Responsable
             th Observaciones
-        tbody
+        tbody.fondo12
           tr
             td.texto-arriba 
               p.mt-4 Permanencia en Unidad de Salud Mental (USM) por orden médica.

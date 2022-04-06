@@ -26,23 +26,23 @@
     span De otra parte, la oficina del 
     span.color-texto.text-bold Alto Comisionado de las Naciones Unidas para los Derechos Humanos en Colombia, en el informe presentado en el año 2001
     span , describió entre otras condiciones, los entornos penitenciarios en el país.
-    .row.mt-4
+    .row.mt-4.correr-izq.correr-der
       .col-12.fondo14
-        SlyderD.my-5(:datos.color-texto="datosSlyder")
+        SlyderD.my-5.ms-5.me-2(:datos.color-texto="datosSlyder")
 
-        .bloque-texto-c.fondo6.p-4.mt-4
+        .bloque-texto-c.fondo6.p-4.mt-4.ms-5.me-2
           i.fas.fa-quote-right
           h3.mb-2 Desde una perspectiva de salud pública, la compleja situación de salud en los EPC representa un riesgo no solo para las PPL, sino también para sus familias y el cuerpo de vigilancia y custodia y para la salud pública.
           .row.justify-content-end
             .col-lg-4.col-md-6.me-2
               span.justify-content-end - (Lopera y Hernández, 2020, p. 3)
 
-        .row.align-items-center.my-5.ms-1
+        .row.align-items-center.my-5.ms-5.me-2
           .col-lg-3.col-md-6.fondo2.py-2.anchoTitulo
             h4.mb-0.text-white.text-bold Factores de riesgo asociado
-        p.my-5 Como lo anotan Laverde y Tuberquia (2019), se han encontrado factores de riesgo que influyen directamente en la calidad de vida de la persona privada de la libertad, como son:
+        p.my-5.ms-5.me-2 Como lo anotan Laverde y Tuberquia (2019), se han encontrado factores de riesgo que influyen directamente en la calidad de vida de la persona privada de la libertad, como son:
 
-        .tarjeta.fondo4.p-4.p-md-5.mb-5
+        .tarjeta.fondo4.p-4.p-md-5.mb-5.ms-5.me-2
           .row.justify-content-around.align-items-center
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
               img(src="@/assets/curso/tema1/figura1.png")
