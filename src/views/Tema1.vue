@@ -10,9 +10,9 @@
     .row.justify-content-center.my-5
       .col-lg-6.col-md-12
         .row.justify-content-center
-          .col-2
+          .col-lg-2.col-1
             img.celular(src="@/assets/curso/tema1/lineas.png")
-          .col-10
+          .col-lg-10.col-11
             p Los entornos penitenciarios son lugares destinados al confinamiento de personas que han sido puestas en prisión preventiva por una autoridad judicial, y que han sido privadas de su libertad tras ser condenadas por un delito.
         .row.align-items-center.mt-4
           .col-xl-3.col-lg-4.col-md-3.fondo2.py-2.mb-4.ms-3.col-sm-3.col-5
