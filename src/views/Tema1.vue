@@ -15,7 +15,7 @@
           .col-lg-10.col-11
             p Los entornos penitenciarios son lugares destinados al confinamiento de personas que han sido puestas en prisión preventiva por una autoridad judicial, y que han sido privadas de su libertad tras ser condenadas por un delito.
         .row.align-items-center.mt-4
-          .col-xl-4.col-lg-5.col-md-3.fondo2.py-2.mb-4.ms-3.col-sm-4.col-4
+          .col-xl-4.col-lg-5.col-md-3.col-6.fondo2.py-2.mb-4.ms-3.col-sm-4.col-4
             h3.mb-0.text-center.text-white.text-bold Características
         .row.mb-4(data-aos="fade-left")
           .col-12
@@ -38,7 +38,7 @@
               span.justify-content-end - (Lopera y Hernández, 2020, p. 3)
 
         .row.align-items-center.my-5.mx-2(data-aos="fade-up")
-          .col-xl-3.col-lg-4.col-md-6.col-sm-7.col-7.fondo2.py-2
+          .col-xl-4.col-lg-4.col-md-6.col-sm-7.col-7.fondo2.py-2
             h3.mb-0.text-white.text-bold.text-center Factores de riesgo asociado
 
         .tarjeta.fondo4.p-4.p-md-5.mb-5.mx-2(data-aos="fade-up-right")
@@ -104,7 +104,7 @@ export default {
       },
       {
         texto:
-          '<p style="color: #3BA3F8; font-weight: bold;">Falta de tratamiento penitenciario y atención especializada requerida por muchas personas privadas de libertad, incluyendo las pertenecientes a los grupos vulnerables.</p>',
+          '<p style="color: #3BA3F8; font-weight: bold; margin-top: 0;">Falta de tratamiento penitenciario y atención especializada requerida por muchas personas privadas de libertad, incluyendo las pertenecientes a los grupos vulnerables.</p>',
         imagen: require('@/assets/template/tema1/imagen8.jpg'),
       },
     ],

@@ -126,7 +126,6 @@ export default {
     width: 30px
     top: 21%
     left: 81%
-    z-index: 99
   &_5
     animation: float1 3.9s ease-in-out infinite alternate
     position: absolute

@@ -78,7 +78,7 @@
             | Suicidio.
 
     .row.align-items-center.my-4
-      .col-lg-3.col-md-4.col-sm-5.col-5.fondo2.py-2.ms-3.col-xl-2(data-aos="fade-down")
+      .col-lg-3.col-md-4.col-sm-5.col-6.fondo2.py-2.ms-3.col-xl-2(data-aos="fade-down")
         h3.mb-0.text-center.text-white.text-bold Consulta externa
     p.mb-5 La consulta externa es la atención que imparten los médicos a pacientes ambulatorios de las especialidades médicas que se ofrecen, consiste en realizar un interrogatorio y exploración física minuciosa para un diagnóstico.
 
@@ -181,10 +181,10 @@
           .col-lg-8.col-md-10.col-sm-10.col-xs-9(data-aos="zoom-in")
             img.reducirgrafica(src='@/assets/curso/tema2/grafico2.svg')
         .row.my-5
-          .col-12(data-aos="fade-down-left")
+          .col-11(data-aos="fade-down-left")
             p.text-center Para el acceso al control por la especialidad de psiquiatría:
         .row
-          .col-lg-7.ms-4
+          .col-lg-7.col-10.ms-4
             .titulo-sexto.color-acento-contenido.ms-5(data-aos="fade")
               span.text-bold.text-small.text-dark Figura 4 
               span.text-small.text-dark Acceso control por la especialidad de psiquiatría
@@ -192,11 +192,11 @@
           .col-11.ms-4.col-sm-10(data-aos="fade-down-left")
             img.my-5.ms-5.reducirgrafica(src='@/assets/curso/tema2/grafico3.svg')
 
-        .row.my-5 
-          .col-12(data-aos="fade-down-right")
+        .row.my-5.justify-content-center 
+          .col-10(data-aos="fade-down-right")
             p.text-center El acceso al control por la especialidad de la hospitalización psiquiatría:
         .row
-          .col-lg-7.ms-4.col-sm-12
+          .col-lg-7.ms-4.col-sm-11.col-10
             .titulo-sexto.color-acento-contenido.ms-5(data-aos="fade-up")
               span.text-bold.text-small.text-dark Figura 5 
               span.text-small.text-dark Acceso control por la especialidad de la hospitalización psiquiatría
@@ -208,7 +208,7 @@
       .col-lg-7
         .titulo-sexto.color-acento-contenido(data-aos="fade")
           h5 Tabla 1
-          span Unidad de Salud Mental de Paso en establecimiento penitenciario
+          span.text-dark Unidad de Salud Mental de Paso en establecimiento penitenciario
 
     .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in-up")
       table
@@ -229,7 +229,7 @@
       .col-lg-7
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2
-          span Traslado de ERON pacientes del Programa Salud Mental
+          span.text-dark Traslado de ERON pacientes del Programa Salud Mental
     .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in-down")
       table
         thead

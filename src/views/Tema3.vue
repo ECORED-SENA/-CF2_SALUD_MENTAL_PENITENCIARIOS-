@@ -27,7 +27,7 @@
     .row.correr-izq.correr-der
       .col-12.fondo10
         .row
-          .col-lg-5.col-md-10.col-sm-12.py-4(data-aos="zoom-in")
+          .col-lg-5.col-md-10.col-sm-12.col-11.py-4.ms-3(data-aos="zoom-in")
             img.reducirImg2(src="@/assets/curso/tema3/sicologa.png")
           .col-lg-7.col-md-10.col-sm-12.py-4
             .row.align-items-center.mt-2.ms-3
@@ -91,7 +91,7 @@
               p Para asegurar a los niños menores de tres años que viven con sus madres en los Establecimientos de Reclusión del Orden Nacional la protección y el ejercicio de sus derechos, a través de la atención integral, tomando las medidas necesarias para su bienestar 
                 span.color-texto.text-bold (Ley 65 de 1993, Art. 153, modificado por Ley 1709 de 2014, art. 88).
 
-          .tarjeta--container.row.my-5.mx-2
+          .tarjeta--container.row.my-5.me-0
             .col-md.tarjeta.color-primario.p-5(data-aos="flip-right")
               .row.justify-content-center.mb-4
                 .col-6
@@ -108,8 +108,8 @@
               h5.text-center.text-white A quién beneficia el programa
               p.text-white.text-center  Niños y niñas hasta los tres (3) años de edad, mujeres gestantes y madres en periodo de lactancia que se encuentran internas en los establecimientos de reclusión de mujeres a cargo del Inpec.
         .row
-          .col-lg-4.col-md-10.col-sm-12(data-aos="zoom-in")
-            img.mb-2.ms-3(src='@/assets/curso/tema3/Grupo.png')
+          .col-lg-4.col-md-10.col-sm-12.col-11(data-aos="zoom-in")
+            img.mb-2.ms-2.me-3(src='@/assets/curso/tema3/Grupo.png')
           .col-lg-8.col-md-10.col-sm-12(data-aos="fade-down")
             .titulo-sexto.color-secundario.mb-1.mt-2.margenTitulo(data-aos="fade-down")
               h4.color-texto.text-bold Programa de atención a familia:
@@ -118,22 +118,21 @@
               h4.color-texto.text-bold Población objeto:
             p.mb-4.margenTexto Personas sindicadas y condenadas privadas de la libertad por orden judicial mediante un abordaje individual, grupal y/o familiar, a través de las diferentes actividades que tengan incidencia en la familia. Este programa se ejecuta desde el proceso de Atención Social (Ley 65 de 1993) y está dirigido a sindicados y condenados para facilitar y fortalecer las relaciones con la familia, y hace parte del tratamiento penitenciario para preparar a la población interna con miras a la vida familiar en libertad a través de dos modalidades:            
 
-
       .row.justify-content-center.mt-5
-        .col-lg-11.col-sm-11.col-11.bajar-col
-          .tarjeta-avatar-b.margen-tarjeta2.reducirTar(data-aos="flip-right")
+        .col-lg-11.col-sm-11.col-10
+          .tarjeta-avatar-b.reducirTar(data-aos="flip-right")
             .tarjeta-avatar-b__img
               img.reducirImg2(src='@/assets/curso/tema3/dialogo.svg')
             .tarjeta.fondo13
-              .py-2.margen-izq
+              .py-2.ps-3
                 p.mb-0.mt-1.me-3 <span style="color: #3BA3F8;">Orientado al Interno(a):</span> <span style="color: #fff">es el acompañamiento directo realizado al interno(a) donde se identifican las situaciones que generan temor frente al proceso que inicia la persona privada de la libertad y su interacción familiar.</span>
       .row.justify-content-center
-        .col-lg-11.col-sm-11.col-11.subir-col
-          .tarjeta-avatar-b.margen-tarjeta2.reducirTar(data-aos="flip-right")
+        .col-lg-11.col-sm-11.col-10.margen-Tar.margen-abajo
+          .tarjeta-avatar-b.reducirTar(data-aos="flip-right")
             .tarjeta-avatar-b__img
               img.reducirImg2(src='@/assets/curso/tema3/familia.svg')
             .tarjeta.fondo13
-              .py-2.margen-izq
+              .py-2.ps-3
                 p.text-white.mb-0.mt-1.me-3 Orientado a la familia del interno(a) las acciones que se realizan en el programa para beneficio directo de la familia del interno(a) se relacionan a continuación: a) Acercamiento familiar, b) Visita familiar, c) Celebración Día de la Familia y d) Celebración del Día de la Niñez.
 
     .titulo-sexto.color-secundario.mb-1(data-aos="fade")
