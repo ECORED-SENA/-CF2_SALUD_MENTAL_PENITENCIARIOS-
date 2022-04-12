@@ -3,21 +3,21 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span 1
       h1 Entornos penitenciarios
-    .row.justify-content-center.my-5
+    .row.justify-content-center.my-5(data-aos="fade-down")
       .col-lg-6.col-md-12
         .row.justify-content-center
           .col-lg-2.col-1
-            img.celular(src="@/assets/curso/tema1/lineas.png")
+            img.celular(data-aos="fade-up")(src="@/assets/curso/tema1/lineas.png")
           .col-lg-10.col-11
             p Los entornos penitenciarios son lugares destinados al confinamiento de personas que han sido puestas en prisión preventiva por una autoridad judicial, y que han sido privadas de su libertad tras ser condenadas por un delito.
         .row.align-items-center.mt-4
-          .col-xl-3.col-lg-4.col-md-3.fondo2.py-2.mb-4.ms-3.col-sm-3.col-5
-            p.mb-0.text-center.text-white.text-bold Características
-        .row.mb-4
+          .col-xl-4.col-lg-5.col-md-3.fondo2.py-2.mb-4.ms-3.col-sm-4.col-4
+            h3.mb-0.text-center.text-white.text-bold Características
+        .row.mb-4(data-aos="fade-left")
           .col-12
             span.mb-0.my-3 Como lo citan Lopera y Medina (2020), la situación de salud que hoy viven las personas privadas de la libertad (PPL) trasciende el fenómeno biomédico de salud-enfermedad. Un abordaje más integral permite entenderla como resultante de la interacción entre los determinantes del orden estructural, institucional y personal. 
             span.color-texto.text-bold La situación de salud de las PPL es un problema de salud pública susceptible de transformación prioritaria.  
@@ -28,21 +28,20 @@
     span , describió entre otras condiciones, los entornos penitenciarios en el país.
     .row.mt-4.correr-izq.correr-der
       .col-12.fondo14
-        SlyderD.my-5.ms-5.me-2(:datos.color-texto="datosSlyder")
+        SlyderD.my-5.mx-2(data-aos="zoom-in-down")(:datos.color-texto="datosSlyder")
 
-        .bloque-texto-c.fondo6.p-4.mt-4.ms-5.me-2
+        .bloque-texto-c.p-4.mt-4.mx-2.fondo6(data-aos="fade-up-left")
           i.fas.fa-quote-right
           h3.mb-2 Desde una perspectiva de salud pública, la compleja situación de salud en los EPC representa un riesgo no solo para las PPL, sino también para sus familias y el cuerpo de vigilancia y custodia y para la salud pública.
           .row.justify-content-end
             .col-lg-4.col-md-6.me-2
               span.justify-content-end - (Lopera y Hernández, 2020, p. 3)
 
-        .row.align-items-center.my-5.ms-5.me-2
-          .col-lg-3.col-md-6.fondo2.py-2.anchoTitulo
-            h4.mb-0.text-white.text-bold Factores de riesgo asociado
-        p.my-5.ms-5.me-2 Como lo anotan Laverde y Tuberquia (2019), se han encontrado factores de riesgo que influyen directamente en la calidad de vida de la persona privada de la libertad, como son:
+        .row.align-items-center.my-5.mx-2(data-aos="fade-up")
+          .col-xl-3.col-lg-4.col-md-6.col-sm-7.col-7.fondo2.py-2
+            h3.mb-0.text-white.text-bold.text-center Factores de riesgo asociado
 
-        .tarjeta.fondo4.p-4.p-md-5.mb-5.ms-5.me-2
+        .tarjeta.fondo4.p-4.p-md-5.mb-5.mx-2(data-aos="fade-up-right")
           .row.justify-content-around.align-items-center
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
               img(src="@/assets/curso/tema1/figura1.png")
@@ -50,7 +49,7 @@
             .col-md.col-lg-6
               .titulo-segundo.color-acento-contenido.mb-5
                 h3.text-white.text-bold Entornos Penitenciarios
-              p.mb-4.text-white En la siguiente infografía  se  presentan estos  factores de riesgo que impactan  a esta población:
+              p.mb-4.text-white Como lo anota Laverde y Tuberquia (2019) se han encontrado factores de riesgo que influyen directamente en la calidad de vida de la persona privada de la libertad, en la siguiente infografía se presentan estos factores de riesgo que impactan a esta población:
               
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/entornos_penitenciarios.pdf')" target="_blank" type="application/pdf")
                 span Descargar

@@ -1,11 +1,11 @@
 .fondo1
-  background-color: #ffeed2
+  background-color: #FFF6E7
 
 .fondo2
   background-color: #3ba3f8
 
 .fondo4
-  background-color: #133D60    
+  background-color: #133D60 
   border-radius: 0
 
 .fondo5
@@ -45,6 +45,13 @@
   background-color: #133D60
   border-radius: 50px
 
+.fondo15
+  background-color: #AED4F5 !important
+
+.pt-0 
+  padding-top: 0!important
+  background-color: #AED4F5
+
 .bordes
   border-radius: 10px
 
@@ -52,7 +59,9 @@
   color: #3ba3f8
 
 .slyder-d__content__card
-  background-color: #DEEEFC !important
+  background-color: #EBF6FF !important
+  width: 500px
+  height: 130px
 
 .slyder__btn
   display: block
@@ -79,6 +88,9 @@
 .bajar
   margin-bottom: -80px
 
+.bajar2
+  margin-bottom: -90px
+
 .lista-ol--cuadro__vineta
     background-color: #133D60 !important
     display: inline-block
@@ -103,15 +115,41 @@
   max-height: 130%
   margin: 0 auto
 
+.reducirImg2
+  max-width: 92%
+  max-height: 95%
+  margin: 0 auto
+
 .reducir80
   width: 80%
   margin: 10px auto
 
-.tabla-a th 
-  border-color: #e8e8e8
+.altura-tarjeta
+  height: 120%
+
+.tabla-a th
+  border-color: #AFAFAF !important
   font-weight: 700
   text-align: center
   background-color: #FCD189
+
+td, th 
+  border: 1px solid #AFAFAF !important
+  padding: 0.75em
+
+.titulo-sexto
+  margin-bottom: 24px
+  border-left: 10px solid !important
+  padding: 5px 0 5px 15px
+
+.titulo-sexto.color-secundario 
+  border-left-color: #3BA3F8 !important
+
+.titulo-sexto.color-acento-contenido
+  color: #FCD189
+  margin-bottom: 24px
+  border-left: 5px solid !important
+  padding: 5px 0 5px 15px
 
 .texto-arriba
   vertical-align: top
@@ -150,11 +188,6 @@
 .acordion__accion__btn--a 
   background-color: #133D60 !important
 
-.slyder-d__content__card
-  background-color: #DEEEFC !important
-  width: 600px
-  height: 130px
-
 .tarjeta--azul
   background-color: #DFEAF1
 
@@ -164,14 +197,18 @@
 .anchoTitulo
   width: 252px
 
+.subir-col
+  margin-top: -40px
+
+.bajar-col
+  margin-bottom: -40px
+
 @media (min-width: $bp-min-xxl)
   .margenTexto
     margin-left: 0em !important
     margin-right: 0.9em
   .margenTitulo
     margin-left: 0
-  .correr-izqBloq
-    margin-left: -50px
   .alineacion
     align-items: end
   .correr-izqimg
@@ -180,12 +217,26 @@
     margin-bottom: 2.7em
   .margen-texto
     margin-bottom: 3em
+  .reducirImg2
+    max-width: 130%
+    max-height: 130%
+    margin: 0 auto
+  .margen-izq
+    margin-left: 0 !important
+  .margen-tarjeta2
+    margin-bottom: 0
 
 @media (max-width: 1400px)
   .margen-tarjeta
     margin-bottom: 4em 
-  .correr-izqBloq
-    margin-left: -50px
+  .reducirImg2
+    max-width: 130%
+    max-height: 130%
+    margin: 0 auto
+  .margen-izq
+    margin-left: 0 !important
+  .margen-tarjeta2
+    margin-bottom: 3em
     
 @media (max-width: 1200px)
   .bajar
@@ -201,8 +252,16 @@
     margin-left: -50px
   .margen-tarjeta
     margin-bottom: 5.5em
+  .margen-tarjeta2
+    margin-bottom: 6.5em
   .texto-peq
     font-size: 0.8em
+  .margen-izq
+    margin-left: 0 !important
+  .reducirImg2
+    max-width: 130%
+    max-height: 130%
+    margin: 0 auto
 
 @media (max-width: 992px)
   .celular
@@ -214,27 +273,33 @@
     margin-right: 0.9em
   .margenTitulo
     margin-left: 0
-  .correr-izqBloq
-    margin-left: 0
   .alineacion
     align-items: end
   .correr-izqimg
     margin-left: 0
   .slyder-d__content__card
-    background-color: #DEEEFC !important
     width: 500px
   .bajar
+    margin-bottom: -120px
+  .bajar2
     margin-bottom: 0
   .margen-texto
-    margin-bottom: 0.5em
+    margin-bottom: 0
   .texto-peq
     font-size: 0.7em
+  .margen-texto2
+    margin-bottom: 2.5em
+  .reducir80
+    width: 60%
+    margin: 10px auto
+  .margen-tarjeta2
+    margin-bottom: 12em
+  .margen-izq
+    margin-left: 0.5em !important
 
 @media (max-width: 768px)
   .margenTitulo
     margin-left: 1.5em
-  .correr-izqBloq
-    margin-left: 0
   .imagenes
     display: none
   .alineacion
@@ -245,13 +310,21 @@
     margin-left: 1.5em !important
     margin-right: 2em
   .margen-tarjeta
-    margin-bottom: 4.5em
+    margin-bottom: 3em
   .margen-texto
     margin-bottom: 0.5em
   .margen-texto2
     margin-bottom: 0
   .texto-peq
     font-size: 0.6em
+  .reducirImg2
+    max-width: 150%
+    max-height: 150%
+    margin: 0 auto
+  .margen-tarjeta2
+    margin-bottom: 11.5em
+  .margen-izq
+    margin-left: 0.5em !important
 
 @media (max-width: 576px)
   .imagenes
@@ -261,24 +334,34 @@
     margin-right: 2em
   .margenTitulo
     margin-left: 1.5em
-  .correr-izqBloq
-    margin-left: 0
   .alineacion
     align-items: start !important
   .correr-izqimg
     margin-left: 0
   .reducir80
-    width: 40%
+    width: 30%
     margin: 10px auto
   .reducirgrafica
     width: 80%
     margin: 0 auto
   .slyder-d__content__card
-    background-color: #DEEEFC !important
     width: 350px
   .bajar
     margin-bottom: 0
+    margin-top: -70px
   .margen-texto
     margin-bottom: 0.5em
   .margen-texto2
     margin-bottom: 0
+  .subir-col
+    margin-top: -30px
+  .bajar-col
+    margin-bottom: -30px
+  .reducirImg2
+    max-width: 150%
+    max-height: 150%
+    margin: 0 auto
+  .margen-tarjeta2
+    margin-bottom: 12em
+  .margen-izq
+    margin-left: 0.5em !important

@@ -3,38 +3,38 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span 3
       h1 Atención social y tratamiento penitenciario
     .row.my-5
-      .col-lg-4.col-sm-12.col-md-10
+      .col-lg-4.col-sm-12.col-md-10(data-aos="fade-up")
         p La atención social se orienta a ofrecer acciones protectoras mediante los servicios de salud, alimentación, habitabilidad, comunicación familiar, desarrollo espiritual, asesoría jurídica y uso adecuado del tiempo libre, que prevengan o minimicen, hasta donde sean posibles los efectos del proceso de prisionalización.
         .row
-          .col-lg-3.col-md-4.col-sm-6
+          .col-lg-3.col-md-4.col-sm-6(data-aos="fade-up")
             img.celular(src="@/assets/curso/tema3/puntos.svg")
       .col-lg-3.col-12-sm.col-md-10(data-aos="zoom-in")
         img(src="@/assets/curso/tema3/reo.png")
-      .col-lg-5.col-12-sm.col-md-10.fondo5
+      .col-lg-5.col-12-sm.col-md-10.fondo5(data-aos="zoom-in")
         .row
           .col-lg-3.col-md-4.col-sm-6
             img.mt-3.ms-3.celular(src="@/assets/curso/tema3/lineas.svg")
         .row
-          .col-12.p-4
+          .col-12.p-4(data-aos="fade-down-left")
             span El  
             span.color-texto.text-bold tratamiento penitenciario 
             span tiene la finalidad de alcanzar la resocialización del infractor de la ley penal, mediante el examen de su personalidad y a través de la disciplina, el trabajo, el estudio, la formación espiritual, la cultura, el deporte y la recreación, bajo un espíritu humano y solidario.
     .row.correr-izq.correr-der
       .col-12.fondo10
         .row
-          .col-lg-5.col-md-10.col-sm-12(data-aos="zoom-in")
-            img.ms-4(src="@/assets/curso/tema3/sicologa.png")
-          .col-lg-7.col-md-10.col-sm-12
+          .col-lg-5.col-md-10.col-sm-12.py-4(data-aos="zoom-in")
+            img.reducirImg2(src="@/assets/curso/tema3/sicologa.png")
+          .col-lg-7.col-md-10.col-sm-12.py-4
             .row.align-items-center.mt-2.ms-3
-              .col-4.fondo2.py-2
-                h4.mb-0.text-center.text-white.text-bold Características
+              .col-4.fondo2.py-2(data-aos="fade-down")
+                h3.mb-0.text-center.text-white.text-bold Características
 
-            AcordionA.my-4.me-4.ms-3(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+            AcordionA.my-4.me-4.ms-3(data-aos="fade-up-left")(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
               .row(titulo="Atención social")
                 .col-md-12.mb-4.mb-md-0.col-sm-12
                   p.ms-5 Inicia en el momento en que el PPL ingresa en un establecimiento de reclusión del Sistema Nacional Penitenciario y Carcelario y termina en el momento en que la autoridad competente emita y notifique al director del establecimiento la boleta de libertad del interno(a), sindicado(a) o condenado(a). Comprende la recepción y la atención del PPL facilitando su proceso de adaptación.
@@ -44,38 +44,38 @@
         .row.mx-3
           .col-lg-6.col-md-10.col-sm-12
             .row.my-4.ms-1
-              .col-6.fondo2.py-2
-                h4.mb-0.text-center.text-white.text-bold Programas de atención social
+              .col-7.col-lg-8.col-xxl-7.fondo2.py-2(data-aos="fade-down")
+                h3.mb-0.text-center.text-white.text-bold Programas de atención social
             .row
-              .col-12
+              .col-12(data-aos="fade-up")
                 p.mb-4 Los programas sociales son un conjunto de instrumentos que tienen por objetivo contribuir a la mejora de las condiciones de vida de la población penitenciaria, entre ellos están:
-            .titulo-sexto.color-secundario
-              h5.color-texto.text-bold Programa de atención psicología penitenciaria:
+            .titulo-sexto.color-secundario(data-aos="fade")
+              h4.color-texto.text-bold Programa de atención psicología penitenciaria:
             .row
-              .col-11
+              .col-11(data-aos="fade-up-right")
                 p.mb-4 Implementa acciones pertinentes a la atención e intervención psicológica de la población privada de la libertad, orientados al fortalecimiento y desarrollo de habilidades, destrezas, actitudes, y potencialidades en los internos(as), con el fin de minimizar los efectos adversos de la prisionalización, y fortalecer procesos psicológicos en busca de su integración social positiva, y en cumplimiento de los procesos de atención social y tratamiento penitenciario.
 
-            .titulo-sexto.color-secundario
-              h5.color-texto.text-bold Componentes
-            LineaTiempoD.color-primario.mb-4
-              .row.justify-content-start(numero="1" titulo="Asistencia psicológica")
-                .col-sm-9.mb-4.mb-md-0.col-xs-12
-                  p.text-small.me-4 Busca ofrecer apoyo profesional mediante una acción preventiva y orientativa a las personas privadas de la libertad que necesitan ayuda para tomar decisiones o resolver problemas que alteran su ritmo de vida normal debido a los efectos emocionales, somáticos, culturales y psicosociales generados por la prisionalización, además de ofrecer orientación, implica también, apoyó, discusión de temas en función de objetivos, desarrollo de una planificación, establecimiento de metas, etc.
+            .titulo-sexto.color-secundario(data-aos="fade")
+              h4.color-texto.text-bold Componentes
+            LineaTiempoD.color-primario.mb-4(data-aos="zoom-in-up")
+              .row.justify-content-start.align-items-center.fondo15(numero="1" titulo="Asistencia psicológica")
+                .col-sm-9.mb-4.mb-md-0.col-xs-12.fondo15
+                  p.me-4 Busca ofrecer apoyo profesional mediante una acción preventiva y orientativa a las personas privadas de la libertad que necesitan ayuda para tomar decisiones o resolver problemas que alteran su ritmo de vida normal debido a los efectos emocionales, somáticos, culturales y psicosociales generados por la prisionalización, además de ofrecer orientación, implica también, apoyó, discusión de temas en función de objetivos, desarrollo de una planificación, establecimiento de metas, etc.
               
                 .col-3.imagenes
                   figure
                     img.correr-izqFig(src='@/assets/template/tema3/ideas.svg')
 
-              .row(numero="2" titulo="Orientación psicojurídica")
-                .col-sm-9.mb-4.mb-md-0.col-xs-12
-                  p.text-small.me-4 Su objetivo es prestar asesoría respecto a los procedimientos del establecimiento desde el marco legal y jurisprudencial, así como en los componentes de índole psicológica. Además, mejorar la comprensión de su situación jurídica, sus implicaciones en su proyecto de vida intramural y la proyección en libertad, para que adquiera un rol activo en su proceso.
+              .row.justify-content-start.align-items-center.fondo15(numero="2" titulo="Orientación psicojurídica")
+                .col-sm-9.mb-4.mb-md-0.col-xs-12.fondo15
+                  p.me-4 Su objetivo es prestar asesoría respecto a los procedimientos del establecimiento desde el marco legal y jurisprudencial, así como en los componentes de índole psicológica. Además, mejorar la comprensión de su situación jurídica, sus implicaciones en su proyecto de vida intramural y la proyección en libertad, para que adquiera un rol activo en su proceso.
                 .col-3
                   figure
                     img.correr-izqFig.imagenes(src='@/assets/template/tema3/balanza.svg')
               
-              .row(numero="3" titulo="Atención en crisis emocional")
-                .col-sm-9.mb-4.mb-md-0.col-xs-12
-                  p.text-small.me-4 Busca determinar las actividades a seguir para realizar contención emocional, remisión y seguimiento de las PPL que acudan al servicio de psicología en estado de crisis emocional y requieran de primeros auxilios psicológicos y/o atención en crisis.
+              .row.justify-content-start.align-items-center.fondo15(numero="3" titulo="Atención en crisis emocional")
+                .col-sm-9.mb-4.mb-md-0.col-xs-12.fondo15
+                  p.me-4 Busca determinar las actividades a seguir para realizar contención emocional, remisión y seguimiento de las PPL que acudan al servicio de psicología en estado de crisis emocional y requieran de primeros auxilios psicológicos y/o atención en crisis.
               
                 .col-3
                   figure
@@ -84,10 +84,10 @@
           .col-lg-5.col-md-10.col-sm-12.correr-izqimg(data-aos="zoom-in-up")
             img(src="@/assets/curso/tema3/profesional.png")
 
-          .titulo-sexto.color-secundario.ms-2
-            h5.color-texto.text-bold Programa de atención a menores de tres (3) años en establecimientos de reclusión:
+          .titulo-sexto.color-secundario.ms-2(data-aos="fade")
+            h4.color-texto.text-bold Programa de atención a menores de tres (3) años en establecimientos de reclusión:
           .row
-            .col-11
+            .col-11(data-aos="fade-down")
               p Para asegurar a los niños menores de tres años que viven con sus madres en los Establecimientos de Reclusión del Orden Nacional la protección y el ejercicio de sus derechos, a través de la atención integral, tomando las medidas necesarias para su bienestar 
                 span.color-texto.text-bold (Ley 65 de 1993, Art. 153, modificado por Ley 1709 de 2014, art. 88).
 
@@ -97,7 +97,7 @@
                 .col-6
                   figure
                     img(src='@/assets/componentes/tema3/embarazo.svg')
-              h5.text-center.text-white El objetivo general de la modalidad 
+              h4.text-center.text-white El objetivo general de la modalidad 
               p.text-center.text-white Apoyar la atención integral desde su gestación hasta los tres (3) años de los niños que se encuentran en los establecimientos de reclusión de mujeres, mediante acciones que apoyen su desarrollo integral y fortalezcan los vínculos afectivos con sus familias y cuidadores. 
 
             .col-md.tarjeta.fondo7.p-5(data-aos="flip-right")
@@ -110,65 +110,63 @@
         .row
           .col-lg-4.col-md-10.col-sm-12(data-aos="zoom-in")
             img.mb-2.ms-3(src='@/assets/curso/tema3/Grupo.png')
-          .col-lg-8.col-md-10.col-sm-12
-            .titulo-sexto.color-secundario.mb-1.mt-2.margenTitulo
-              h5.color-texto.text-bold Programa de atención a familia:
+          .col-lg-8.col-md-10.col-sm-12(data-aos="fade-down")
+            .titulo-sexto.color-secundario.mb-1.mt-2.margenTitulo(data-aos="fade-down")
+              h4.color-texto.text-bold Programa de atención a familia:
             p.margenTexto Busca fortalecer los vínculos familiares y desarrollar procesos de acompañamiento e intervención individual, grupal y/o familiar que permita al privado de libertad y su sistema familiar afrontar los efectos negativos del proceso de prisionalización e identificar actitudes resilientes frente al mismo.
-            .titulo-sexto.color-secundario.mt-5.mb-1.margenTitulo
-              h5.color-texto.text-bold Población objeto:
+            .titulo-sexto.color-secundario.mt-5.mb-1.margenTitulo(data-aos="fade-up")
+              h4.color-texto.text-bold Población objeto:
             p.mb-4.margenTexto Personas sindicadas y condenadas privadas de la libertad por orden judicial mediante un abordaje individual, grupal y/o familiar, a través de las diferentes actividades que tengan incidencia en la familia. Este programa se ejecuta desde el proceso de Atención Social (Ley 65 de 1993) y está dirigido a sindicados y condenados para facilitar y fortalecer las relaciones con la familia, y hace parte del tratamiento penitenciario para preparar a la población interna con miras a la vida familiar en libertad a través de dos modalidades:            
 
 
       .row.justify-content-center.mt-5
-        .col-lg-10
-          .tarjeta-avatar-b.mb-5.reducirTar(data-aos="flip-right")
+        .col-lg-11.col-sm-11.col-11.bajar-col
+          .tarjeta-avatar-b.margen-tarjeta2.reducirTar(data-aos="flip-right")
             .tarjeta-avatar-b__img
-              img.reducirImg(src='@/assets/curso/tema3/dialogo.svg')
+              img.reducirImg2(src='@/assets/curso/tema3/dialogo.svg')
             .tarjeta.fondo13
-              .py-2.texto-peq
+              .py-2.margen-izq
                 p.mb-0.mt-1.me-3 <span style="color: #3BA3F8;">Orientado al Interno(a):</span> <span style="color: #fff">es el acompañamiento directo realizado al interno(a) donde se identifican las situaciones que generan temor frente al proceso que inicia la persona privada de la libertad y su interacción familiar.</span>
       .row.justify-content-center
-        .col-lg-10
-          .tarjeta-avatar-b.mb-5.reducirTar(data-aos="flip-right")
+        .col-lg-11.col-sm-11.col-11.subir-col
+          .tarjeta-avatar-b.margen-tarjeta2.reducirTar(data-aos="flip-right")
             .tarjeta-avatar-b__img
-              img.reducirImg(src='@/assets/curso/tema3/familia.svg')
+              img.reducirImg2(src='@/assets/curso/tema3/familia.svg')
             .tarjeta.fondo13
-              .py-2.texto-peq
+              .py-2.margen-izq
                 p.text-white.mb-0.mt-1.me-3 Orientado a la familia del interno(a) las acciones que se realizan en el programa para beneficio directo de la familia del interno(a) se relacionan a continuación: a) Acercamiento familiar, b) Visita familiar, c) Celebración Día de la Familia y d) Celebración del Día de la Niñez.
 
-
-
-    .titulo-sexto.color-secundario.mb-1
-      h5.color-texto.text-bold Programa de atención a grupos de condiciones excepcionales:
+    .titulo-sexto.color-secundario.mb-1(data-aos="fade")
+      h4.color-texto.text-bold Programa de atención a grupos de condiciones excepcionales:
     .row
-      .col-lg-8.col-md-10.col-sm-12.my-4
+      .col-lg-8.col-md-10.col-sm-12.my-4(data-aos="fade-down")
         span Para diseñar, implementar y promover estrategias con un modelo de acompañamiento que permitan la inclusión social de las personas privadas de la libertad, población interna que pertenece a grupos con condición excepcional dentro de los establecimientos de reclusión, desde un enfoque diferencial, 
         span.color-texto.text-bold por medio de la construcción de espacios de participación que respondan a cada una de las necesidades culturales y de integración social.
         .row.mt-3.fondo1.p-4.justify-content-center
-          .col-lg-2.col-md-4.col-sm-6.col-6
+          .col-lg-2.col-md-4.col-sm-6.col-6(data-aos="zoom-in-down")
             img.my-4(src='@/assets/curso/tema3/figura1.svg')
-          .col-lg-10.col-sm-12
+          .col-lg-10.col-sm-12(data-aos="fade-down")
             h5.mb-3.mt-3 Población objeto
             p Personas privadas de la libertad que pertenecen a grupos de condiciones excepcionales: adulto mayor, extranjeros, NARP (negros, afrodescendientes, raizales o palenqueros), indígenas, en condición de discapacidad y madres gestantes y lactantes. 
       .col-lg-4.col-md-10.col-sm-12(data-aos="zoom-in-up")
         img(src='@/assets/curso/tema3/reo2.png')
 
     .row
-      .col-lg-4.col-md-10.col-sm-12
+      .col-lg-4.col-md-10.col-sm-12(data-aos="fade-down")
         img.mb-4(src='@/assets/curso/tema3/imagen1.png')(data-aos="zoom-in")
       .col-lg-8.col-md-10.col-sm-12
-        .titulo-sexto.color-secundario.mb-1
-          h5.color-texto.text-bold Programa de asistencia espiritual y religiosa:
+        .titulo-sexto.color-secundario.mb-1(data-aos="fade")
+          h4.color-texto.text-bold Programa de asistencia espiritual y religiosa:
         p.mb-3 Su objetivo es facilitar y garantizar la libertad de culto y la asistencia espiritual y religiosa de la población privada de la libertad a través de los cultos, iglesias o confesiones a las cuales pertenecen los PPL, buscando la orientación, animación y crecimiento en su dimensión espiritual.
-        .titulo-sexto.color-secundario.mt-5.mb-1
-          h5.color-texto.text-bold Programa de prevención y atención integral al consumo de sustancias psicoactivas:
+        .titulo-sexto.color-secundario.mt-5.mb-1(data-aos="fade")
+          h4.color-texto.text-bold Programa de prevención y atención integral al consumo de sustancias psicoactivas:
         p.mb-3 Busca promover estilos de vida saludable, prevenir el uso de sustancias psicoactivas y atender a la población privada de la libertad para apoyar la mitigación o la superación del consumo.
-        .titulo-sexto.color-secundario.mt-5.mb-1
-          h5.color-texto.text-bold Programas de tratamiento penitenciario:
+        .titulo-sexto.color-secundario.mt-5.mb-1(data-aos="fade")
+          h4.color-texto.text-bold Programas de tratamiento penitenciario:
         p.mb-3 La finalidad de estos programas es la reinserción y reeducación del privado de la libertad.
     .row.my-5
       .col-lg-7.col-md-10.col-sm-12
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA.mb-5(data-aos="zoom-in-up")(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Inducción al tratamiento penitenciario")
             .col-md-12.mb-4.mb-md-0.ms-5
               p Orientar al privado de la libertad que ingresa al sistema penitenciario y facilitar su proceso de adaptación al medio, de cara a incidir de manera positiva en lo que será su tiempo de permanencia en el centro de reclusión y su reintegración social. 
@@ -194,7 +192,7 @@
             p.ms-5 PPL condenados, con condena ejecutoriada. 
           div(titulo="Programa de preparación para la libertad")
             p.ms-5 Su objetivo es la disminución de la afectación de prisionalización en el retorno a la vida en libertad del PPL, por medio de la optimización de habilidades de ajuste en las áreas individual, familiar, educativo, laboral, social y comunitario.
-            ul.lista-ul--color.my-4.ms-5
+            ul.lista-ul--color.my-4.ms-5(data-aos="fade-up")
               li 
                 i.fas.fa-check-circle
                 | PPL condenados con condenas ejecutoriadas.
@@ -216,15 +214,15 @@
       .col-lg-5.col-md-10.col-sm-12(data-aos="zoom-in-up")
         img(src='@/assets/curso/tema3/reo3.png')
     .row.align-items-center.my-4.ms-1
-      .col-8.fondo2.py-2.col-md-5.col-lg-3.col-sm-6.col-xs-5
-        p.mb-0.text-center.text-white.text-bold Efectos de prisionalización
+      .col-8.fondo2.py-2.col-md-6.col-lg-4.col-sm-7.col-6.col-xs-5
+        h3.mb-0.text-center.text-white.text-bold Efectos de prisionalización
     .row.mb-5
-      .col-lg-1.col-md-3.col-sm-4
+      .col-lg-1.col-md-3.col-sm-4(data-aos="fade-down")
         img.celular(src='@/assets/curso/tema3/puntos.svg')
-      .col-lg-11.col-sm-12
+      .col-lg-11.col-sm-12(data-aos="fade-up")
         p Es el proceso por el que una persona, por consecuencia directa de su estancia en la cárcel, asume, sin ser consciente de ello, el código de conducta y de valores que dan contenido a la subcultura carcelaria. La prisionalización es una variable interviniente en la conducta del recluso perfectamente graduable, no existe una relación lineal y progresiva única en esta. La cárcel tiene un código de conducta, una normas formales e informales sobre las que se organiza la convivencia al igual que las tiene cualquier organización humana.
     figure.mb-5
-      .video
+      .video(data-aos="zoom-in-down")
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 <script>
