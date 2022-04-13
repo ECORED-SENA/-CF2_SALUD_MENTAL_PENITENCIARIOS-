@@ -31,7 +31,7 @@
             img.reducirImg2(src="@/assets/curso/tema3/sicologa.png")
           .col-lg-7.col-md-10.col-sm-12.py-4
             .row.align-items-center.mt-2.ms-3
-              .col-4.fondo2.py-2(data-aos="fade-down")
+              .col-5.col-xl-4.fondo2.py-2(data-aos="fade-down")
                 h3.mb-0.text-center.text-white.text-bold Características
 
             AcordionA.my-4.me-4.ms-3(data-aos="fade-up-left")(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -91,7 +91,7 @@
               p Para asegurar a los niños menores de tres años que viven con sus madres en los Establecimientos de Reclusión del Orden Nacional la protección y el ejercicio de sus derechos, a través de la atención integral, tomando las medidas necesarias para su bienestar 
                 span.color-texto.text-bold (Ley 65 de 1993, Art. 153, modificado por Ley 1709 de 2014, art. 88).
 
-          .tarjeta--container.row.my-5.me-0
+          .tarjeta--container.row.my-5
             .col-md.tarjeta.color-primario.p-5(data-aos="flip-right")
               .row.justify-content-center.mb-4
                 .col-6
