@@ -220,7 +220,7 @@
         p Es el proceso por el que una persona, por consecuencia directa de su estancia en la cárcel, asume, sin ser consciente de ello, el código de conducta y de valores que dan contenido a la subcultura carcelaria. La prisionalización es una variable interviniente en la conducta del recluso perfectamente graduable, no existe una relación lineal y progresiva única en esta. La cárcel tiene un código de conducta, una normas formales e informales sobre las que se organiza la convivencia al igual que las tiene cualquier organización humana.
     figure.mb-5
       .video(data-aos="zoom-in-down")
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/M2gksW0Y5fs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 <script>
 import BannerInterno from '../components/BannerInterno.vue'

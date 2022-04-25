@@ -152,7 +152,7 @@ export default {
         'Uspec. (2020). Manual técnico administrativo para la implementación del modelo de atención en salud de la población privada de la libertad a cargo del Inpec.',
       tipo: 'Página web',
       link:
-        'https://www.uspec.gov.co/wp-content/uploads/2021/10/Manual-Tcnico-Administrativo-para-la-Implementacin-del-Modelo-de-Atencin-en-Salud-de-la-Poblacin-Privada-de-la-Libertad-a-Cargo-del-INPEC.pdf',
+        'http://www.uspec.gov.co/sites/default/files/2021-11/manual-tecnico-administrativo-para-la-implementacion-del-modelo-de-atencion-en-salud-de-la-poblacion-privada-de-la-libertad-a-cargo-del-inpec.pdf',
     },
     {
       texto:
@@ -238,6 +238,18 @@ export default {
       },
       {
         nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jaime Enrique Díaz Reyes',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin ',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

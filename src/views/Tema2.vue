@@ -84,7 +84,7 @@
 
     figure.mb-5
       .video(data-aos="fade-up")
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/5Kw0k1YJYpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     span.my-5 Pese a que el 
     span.color-texto.text-bold Manual técnico administrativo indica las acciones y atenciones a realizar para la PPL de acuerdo con la normativa vigente
     span , a la fecha la prestación de servicios contratada por la fiduciaria central es la siguiente: 
