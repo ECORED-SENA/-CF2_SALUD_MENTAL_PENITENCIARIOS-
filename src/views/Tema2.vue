@@ -116,14 +116,14 @@
           p.margen-texto.text-bold.mt-3 Atención Nacional Clínica Nuestra Señora de la Paz y Clínica Basilia: 
 
         .col-xxl-4.col-md-5.col-sm-6.col-lg.mb-5.mb-lg-0.bajar(data-aos="flip-right")
-          .tarjeta-avatar.bajar.altura-tarjeta
+          .tarjeta-avatar.bajar.altura-tarjeta.margen2
             .tarjeta.fondo8
               img.reducir(src='@/assets/curso/tema2/figura1.svg')
               .p-4
                 h3.text-center Médico psiquiatra
                 p.margen-texto2.text-center Atención mensual a pacientes de control del programa y usuarios nuevos previa gestión de autorización y cumplimiento de ruta.
         .col-xxl-4.col-md-5.col-sm-6.col-lg.mb-5.mb-lg-0(data-aos="flip-right")
-          .tarjeta-avatar.bajar.altura-tarjeta
+          .tarjeta-avatar.bajar.altura-tarjeta.margen2
             .tarjeta.fondo8
               img.reducir(src='@/assets/curso/tema2/figura2.svg')
               .p-4
