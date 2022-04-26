@@ -5,9 +5,9 @@
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center(data-aos="zoom-in")
+        .tarjeta.h-100.d-flex.align-items-center(data-aos="zoom-in")
           figure
-            img(src="@/assets/curso/actividad/FALSOYVERDADERO.png")
+            img(src="@/assets/template/falso-verdadero.svg")
       .col-12.col-md-8.col-lg-9(data-aos="fade-right")
         .titulo-segundo
           h2 Atención en salud mental al interior de un ERON 
