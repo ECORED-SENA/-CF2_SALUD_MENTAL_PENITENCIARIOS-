@@ -15,7 +15,7 @@
         span Este módulo permitirá a los participantes 
         span.color-texto.text-bold generar conocimiento del concepto de entornos penitenciarios, normativa en la prestación de servicios de salud mental, programas y lineamientos del área psicosocial 
         span que se realizan al interior de los establecimientos de reclusión, en pro de la salud mental de los privados de la libertad; se invita a conocer un poco más en el siguiente video:
-    figure.mb-5
+    figure
       .video
         iframe(width="560" height="315" src="https://youtube.com/embed/NfZwSY6EdTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 

@@ -41,7 +41,7 @@
           .col-xl-4.col-lg-4.col-md-6.col-sm-7.col-7.fondo2.py-2
             h3.mb-0.text-white.text-bold.text-center Factores de riesgo asociado
 
-        .tarjeta.fondo4.p-4.p-md-5.mb-5.mx-2(data-aos="fade-up-right")
+        .tarjeta.fondo4.p-4.p-md-5.mx-2(data-aos="fade-right")
           .row.justify-content-around.align-items-center
             .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
               img(src="@/assets/curso/tema1/figura1.png")

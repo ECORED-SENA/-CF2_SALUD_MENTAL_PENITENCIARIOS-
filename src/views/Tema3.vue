@@ -131,7 +131,7 @@
             img.reducirImg2(src='@/assets/curso/tema3/familia.svg')
           .tarjeta.fondo13
             .py-2.ps-3
-              p.text-white.mb-0.mt-1.me-3 Orientado a la familia del interno(a) las acciones que se realizan en el programa para beneficio directo de la familia del interno(a) se relacionan a continuación: a) Acercamiento familiar, b) Visita familiar, c) Celebración Día de la Familia y d) Celebración del Día de la Niñez.
+              p.mb-0.mt-1.me-3 <span style="color: #3BA3F8;">Orientado a la familia del interno(a)</span> <span style="color: #fff">las acciones que se realizan en el programa para beneficio directo de la familia del interno(a) se relacionan a continuación: a) Acercamiento familiar, b) Visita familiar, c) Celebración Día de la Familia y d) Celebración del Día de la Niñez.</span>
 
     .titulo-sexto.color-secundario.mb-1(data-aos="fade")
       h4.color-texto.text-bold Programa de atención a grupos de condiciones excepcionales:
@@ -218,7 +218,7 @@
         img.celular(src='@/assets/curso/tema3/puntos.svg')
       .col-lg-11.col-sm-12(data-aos="fade-up")
         p Es el proceso por el que una persona, por consecuencia directa de su estancia en la cárcel, asume, sin ser consciente de ello, el código de conducta y de valores que dan contenido a la subcultura carcelaria. La prisionalización es una variable interviniente en la conducta del recluso perfectamente graduable, no existe una relación lineal y progresiva única en esta. La cárcel tiene un código de conducta, una normas formales e informales sobre las que se organiza la convivencia al igual que las tiene cualquier organización humana.
-    figure.mb-5
+    figure
       .video(data-aos="zoom-in-down")
         iframe(width="560" height="315" src="https://www.youtube.com/embed/M2gksW0Y5fs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>

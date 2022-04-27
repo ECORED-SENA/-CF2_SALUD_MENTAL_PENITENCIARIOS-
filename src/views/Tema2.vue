@@ -230,7 +230,7 @@
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2
           span.text-dark Traslado de ERON pacientes del Programa Salud Mental
-    .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in-down")
+    .tabla-a.color-acento-contenido(data-aos="zoom-in-down")
       table
         thead
           tr
