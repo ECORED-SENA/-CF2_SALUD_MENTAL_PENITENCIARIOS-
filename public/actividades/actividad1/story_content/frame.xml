@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="SENA - Actividad Did&amp;#225;ctica" />
+              <option name="title_text" value="CF2 - Salud Mental" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1196,6 +1196,7 @@
       <string id="three_image_camera_left">cámara movida a la izquierda</string>
       <string id="three_image_camera_down">cámara movida hacia abajo</string>
       <string id="three_image_camera_up">cámara movida hacia arriba</string>
+      <string id="three_image_tooltip">descripción emergente</string>
       <string id="three_image_label">etiqueta</string>
       <string id="three_image_interaction">interacción de la imagen de 360 grados</string>
       <string id="three_image_marker">marcador</string>
@@ -1213,6 +1214,13 @@
       <string id="three_image_view_image">ver imagen</string>
       <string id="three_image_video_volume">volumen del video</string>
       <string id="three_image_instructions">Utiliza las flechas del teclado para moverte por la imagen de 360 grados. Presiona la tecla TAB para saltar a los marcadores y puntos calientes interactivos.</string>
+      <string id="three_image_count_of_total">%count% de %total%</string>
+      <string id="acc_three_image_step_count_of_total">paso %count% de %total%</string>
+      <string id="three_image_total_items">%total% ítems</string>
+      <string id="three_image_total_item">%total% ítem</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% de %total% ítems visitados</string>
+      <string id="three_image_count_of_total_visited">%count% de %total% visitados</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% de %total% ítems visitados</string>
       <string id="three_image_item">ítem</string>
       <string id="three_image_items">ítems</string>
       <string id="three_image_of">de</string>
@@ -1280,7 +1288,7 @@
             <slidelink slideid="_player.6iPYYXYye9N.6qcpLxo3emc" displaytext="De acuerdo con lo planteado en el módulo, es un factor de riesgo importante en la prevalencia de las enfermedades:" expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.66If4NUGceZ" displaytext="Como parte de las consecuencias de la prisión están las alteraciones del olfato, que están mediadas por el hacinamiento y por el hecho de que en el mismo lugar convergen todas las actividades cotidianas que van desde el aseo personal, que pasa a ser colectivo, hasta la preparación y reparto de alimentos. Este tipo de efecto es:" expand="false" type="slide" />
             <slidelink slideid="_player.6iPYYXYye9N.6hr5IfR0toT" displaytext="Entidad encargada de las personas declaradas jurídicamente inimputables                           ." expand="false" type="slide" />
-            <slidelink slideid="_player.6iPYYXYye9N.5qDT5bHDIH4" displaytext="El artículo                  menciona que el Juez de Conocimiento o el Juez de Control de Garantías, según el caso, señalará el centro de reclusión o establecimiento de rehabilitación donde deban ser recluidas las personas en detención preventiva. " expand="false" type="slide" />
+            <slidelink slideid="_player.6iPYYXYye9N.5qDT5bHDIH4" displaytext="El artículo                  menciona que: " expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
